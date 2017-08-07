@@ -2,6 +2,7 @@ import json
 from collections import defaultdict
 import sys
 import re
+import pandas
 
 nws = re.compile("[^\w]+")
 
@@ -25,8 +26,8 @@ def printVuln(itype, iname, vuln):
         '\n '.join(vuln.urls)
     )
 
-def printItem(itype, iname, digest):
-    for vname in digest.prodmap[iname]:
+def printItem(itype, iname, digest, ignores):
+    for vname in (digest.prodmap[iname] - ignores):
         printVuln(
             itype,
             iname,
@@ -79,28 +80,35 @@ def main(vfile, pkgfile, libfile, modfile):
     pset = set([line.strip().lower() for line in open(pkgfile)])
     lset = set([line.strip().lower() for line in open(libfile)])
     mset = set([line.strip().lower() for line in open(modfile)])
+    ignores = pandas.read_csv('ignore.csv')
+    ignores = set(ignores['cvecode'])
     itemset = set(d.prodmap.keys())
 
     for item in (pset & itemset):
         printItem(
             'Package (in CPE)',
             item,
-            d
+            d,
+            ignores
         )
     for item in (lset & itemset):
         printItem(
             'Library (in CPE)',
             item,
-            d
+            d,
+            ignores
         )
     for item in (mset & itemset):
         printItem(
             'Module (in CPE)',
             item,
-            d
+            d,
+            ignores
         )
     # Search descriptions too. This ought to be a run-time option.
     for vuln in d.cvemap.values():
+        if vuln.cve in ignores:
+            continue
         wset = set(nws.sub(' ', vuln.description).lower().split())
         for item in (wset & pset):
             printVuln(
