@@ -31,7 +31,10 @@ conda list -p  $1 \
     | grep -v '#' \
     > $TDIR/packages.txt
 
-python vulndigester.py  $2 $TDIR/packages.txt $TDIR/libraries.txt $TDIR/modules.txt
+python vulndigester.py --env $1 $2 $TDIR/packages.txt $TDIR/libraries.txt $TDIR/modules.txt
 
-rm -rf $TDIR # When it's finally working
+# For HTML output:
+#python vulndigester.py --html --env $1 $2 $TDIR/packages.txt $TDIR/libraries.txt $TDIR/modules.txt
+
+rm -rf $TDIR
 
