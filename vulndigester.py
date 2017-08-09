@@ -102,19 +102,43 @@ class Digest(object):
             self.cvemap[v.cve] = v
 
 def main():
-    parser = argparse.ArgumentParser(description='Check for vulnerabilities in lists of modules, pakages, libraries')
-    parser.add_argument('vfile',  type=str,
-                        help='JSON file from NVD')
-    parser.add_argument('pkgfile',  type=str,
-                        help='a list of packages in a Conda environment, one per line')
-    parser.add_argument('libfile',  type=str,
-                        help='a list of libraries in a Conda environment, one per line')
-    parser.add_argument('modfile',  type=str,
-                        help='a list of modules in a Conda environment, one per line')
-    parser.add_argument('--html', action='store_true',
-                        default=False, help='HTML output rather than text')
-    parser.add_argument('--env', action='store', type=str,
-                        default='Not provided', help='Conda environment root')
+
+    parser = argparse.ArgumentParser(
+        description='Check for vulnerabilities in lists of modules, pakages, libraries'
+    )
+    parser.add_argument(
+        'vfile',
+        type=str,
+        help='JSON file from NVD'
+    )
+    parser.add_argument(
+        'pkgfile',
+        type=str,
+        help='a list of packages in a Conda environment, one per line'
+    )
+    parser.add_argument(
+        'libfile',
+        type=str,
+        help='a list of libraries in a Conda environment, one per line'
+    )
+    parser.add_argument(
+        'modfile',
+        type=str,
+        help='a list of modules in a Conda environment, one per line'
+    )
+    parser.add_argument(
+        '--html',
+        action='store_true',
+        default=False,
+        help='HTML output rather than text'
+    )
+    parser.add_argument(
+        '--env',
+        action='store',
+        type=str,
+        default='Not provided',
+        help='Conda environment root'
+    )
     args = parser.parse_args()
 
     d = Digest(args.vfile)
