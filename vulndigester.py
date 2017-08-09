@@ -101,7 +101,6 @@ class Digest(object):
                 self.prodmap[prodname].add(v.cve)
             self.cvemap[v.cve] = v
 
-# def main(vfile, pkgfile, libfile, modfile):
 def main():
     parser = argparse.ArgumentParser(description='Check for vulnerabilities in lists of modules, pakages, libraries')
     parser.add_argument('vfile',  type=str,
