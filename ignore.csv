@@ -1,5 +1,5 @@
 cvecode,comment
-CVE-2099-9999,Ignore this CVE when it comes up in a search, because it's bogus
+CVE-2099-9999,"Ignore this CVE when it comes up in a search, because it's bogus"
 CVE-2007-4207,This is bogus too
 CVE-2016-4330,Related to HDF5 1.8.16
 CVE-2016-4331,Related to HDF5 1.8.16
