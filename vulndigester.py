@@ -1,6 +1,5 @@
 import json
 from collections import defaultdict
-import sys
 import re
 import pandas
 from jinja2 import Template
@@ -88,10 +87,11 @@ class ItemReport(object):
 
 class Digest(object):
 
-    def __init__(self, fname):
+    def __init__(self, fname, ignores={}):
 
         self.prodmap = defaultdict(set)
         self.cvemap = {}
+        self.ignores = ignores
 
         self.j = json.load(open(fname, 'rb'))
 
@@ -101,10 +101,23 @@ class Digest(object):
                 self.prodmap[prodname].add(v.cve)
             self.cvemap[v.cve] = v
 
+    def itemReports(self, item, itype):
+        return [
+            ItemReport(
+                self.cvemap[vcode],
+                item,
+                itype
+            )
+            for vcode in filter(
+                lambda x: x not in self.ignores,
+                self.prodmap[item]
+            )
+        ]
+
 def main():
 
     parser = argparse.ArgumentParser(
-        description='Check for vulnerabilities in lists of modules, pakages, libraries'
+        description='Check for vulnerabilities in lists of modules, packages, libraries'
     )
     parser.add_argument(
         'vfile',
@@ -141,55 +154,33 @@ def main():
     )
     args = parser.parse_args()
 
-    d = Digest(args.vfile)
-
     pset = set([line.strip().lower() for line in open(args.pkgfile)])
     lset = set([line.strip().lower() for line in open(args.libfile)])
     mset = set([line.strip().lower() for line in open(args.modfile)])
     ignores = pandas.read_csv('ignore.csv')
     ignores = set(ignores['cvecode'])
+    d = Digest(args.vfile, ignores=ignores)
     itemset = set(d.prodmap.keys())
 
     reportlist = []
 
     for item in (pset & itemset):
-        reportlist += [
-            ItemReport(
-                d.cvemap[vcode],
-                item,
-                'Package (in CPE)'
+        reportlist += d.itemReports(
+            item,
+            'Package (in CPE)'
             )
-            for vcode in filter(
-                lambda x: x not in ignores,
-                d.prodmap[item]
-            )
-        ]
     for item in (lset & itemset):
-        reportlist += [
-            ItemReport(
-                d.cvemap[vcode],
-                item,
-                'Library (in CPE)'
+        reportlist += d.itemReports(
+            item,
+            'Library (in CPE)'
             )
-            for vcode in filter(
-                lambda x: x not in ignores,
-                d.prodmap[item]
-            )
-        ]
     for item in (mset & itemset):
-        reportlist += [
-            ItemReport(
-                d.cvemap[vcode],
-                item,
-                'Module (in CPE)'
+        reportlist += d.itemReports(
+            item,
+            'Module (in CPE)'
             )
-            for vcode in filter(
-                lambda x: x not in ignores,
-                d.prodmap[item]
-            )
-        ]
 
-    # Search descriptions too. This ought to be a run-time option.
+    # Search descriptions too. Maybe this ought to be a run-time option?
     for vuln in d.cvemap.values():
         if vuln.cve in ignores:
             continue
