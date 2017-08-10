@@ -146,6 +146,13 @@ def main():
         help='HTML output rather than text'
     )
     parser.add_argument(
+        '--description',
+        '-d',
+        action='store_true',
+        default=False,
+        help='Search language of descriptions as well as CPE codes'
+    )
+    parser.add_argument(
         '--env',
         action='store',
         type=str,
@@ -180,35 +187,36 @@ def main():
             'Module (in CPE)'
             )
 
-    # Search descriptions too. Maybe this ought to be a run-time option?
-    for vuln in d.cvemap.values():
-        if vuln.cve in ignores:
-            continue
-        wset = set(nws.sub(' ', vuln.description).lower().split())
-        for item in (wset & pset):
-            reportlist.append(
-                ItemReport(
-                    vuln,
-                    item,
-                    'Package name occurs in description'
+    # Search descriptions too?
+    if args.description:
+        for vuln in d.cvemap.values():
+            if vuln.cve in ignores:
+                continue
+            wset = set(nws.sub(' ', vuln.description).lower().split())
+            for item in (wset & pset):
+                reportlist.append(
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Package name occurs in description'
+                    )
                 )
-            )
-        for item in (wset & lset):
-            reportlist.append(
-                ItemReport(
-                    vuln,
-                    item,
-                    'Library name occurs in description'
+            for item in (wset & lset):
+                reportlist.append(
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Library name occurs in description'
+                    )
                 )
-            )
-        for item in (wset & mset):
-            reportlist.append(
-                ItemReport(
-                    vuln,
-                    item,
-                    'Module name occurs in description'
+            for item in (wset & mset):
+                reportlist.append(
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Module name occurs in description'
+                    )
                 )
-            )
 
     if args.html:
             t = Template(templateText)
