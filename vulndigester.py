@@ -87,13 +87,13 @@ class ItemReport(object):
 
 class Digest(object):
 
-    def __init__(self, fname, ignores={}):
+    def __init__(self, vfile, ignores={}):
 
         self.prodmap = defaultdict(set)
         self.cvemap = {}
         self.ignores = ignores
 
-        self.j = json.load(open(fname, 'rb'))
+        self.j = json.load(vfile)
 
         for vuln in self.j['CVE_Items']:
             v = Vulnerability(vuln)
@@ -121,22 +121,22 @@ def main():
     )
     parser.add_argument(
         'vfile',
-        type=str,
+        type=argparse.FileType('r'),
         help='JSON file from NVD'
     )
     parser.add_argument(
         'pkgfile',
-        type=str,
+        type=argparse.FileType('r'),
         help='a list of packages in a Conda environment, one per line'
     )
     parser.add_argument(
         'libfile',
-        type=str,
+        type=argparse.FileType('r'),
         help='a list of libraries in a Conda environment, one per line'
     )
     parser.add_argument(
         'modfile',
-        type=str,
+        type=argparse.FileType('r'),
         help='a list of modules in a Conda environment, one per line'
     )
     parser.add_argument(
@@ -155,22 +155,24 @@ def main():
     parser.add_argument(
         '--ignore-words',
         '-i',
-        action='store',
+        type=argparse.FileType('r'),
         default=None,
+        metavar='/path/to/word/list',
         help='File containing a list of words to ignore in descriptions, one per line.'
     )
     parser.add_argument(
         '--env',
         action='store',
+        metavar='/path/to/environment/root',
         type=str,
         default='Not provided',
         help='Conda environment root'
     )
     args = parser.parse_args()
 
-    pset = set([line.strip().lower() for line in open(args.pkgfile)])
-    lset = set([line.strip().lower() for line in open(args.libfile)])
-    mset = set([line.strip().lower() for line in open(args.modfile)])
+    pset = set([line.strip().lower() for line in args.pkgfile])
+    lset = set([line.strip().lower() for line in args.libfile])
+    mset = set([line.strip().lower() for line in args.modfile])
     ignores = pandas.read_csv('ignore.csv')
     ignores = set(ignores['cvecode'])
     d = Digest(args.vfile, ignores=ignores)
@@ -197,7 +199,7 @@ def main():
     # Search descriptions too?
     if args.description:
         if args.ignore_words:
-            iwset = set([line.strip().lower() for line in open(args.ignore_words)])
+            iwset = set([line.strip().lower() for line in args.ignore_words])
         else:
             iwset = set()
         for vuln in d.cvemap.values():
