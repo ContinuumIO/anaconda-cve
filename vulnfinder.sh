@@ -31,7 +31,10 @@ conda list -p  $1 \
     | grep -v '#' \
     > $TDIR/packages.txt
 
-python vulndigester.py  $2 $TDIR/packages.txt $TDIR/libraries.txt $TDIR/modules.txt
+python vulndigester.py -d -i ignore-words.txt --env $1 $2 $TDIR/packages.txt $TDIR/libraries.txt $TDIR/modules.txt
 
-rm -rf $TDIR # When it's finally working
+# vulndigester.py has a number of options
+# python vulndigester.py -h will explain them, a bit tersely
+
+rm -rf $TDIR
 
