@@ -153,6 +153,13 @@ def main():
         help='Search language of descriptions as well as CPE codes'
     )
     parser.add_argument(
+        '--ignore-words',
+        '-i',
+        action='store',
+        default=None,
+        help='File containing a list of words to ignore in descriptions, one per line.'
+    )
+    parser.add_argument(
         '--env',
         action='store',
         type=str,
@@ -189,11 +196,15 @@ def main():
 
     # Search descriptions too?
     if args.description:
+        if args.ignore_words:
+            iwset = set([line.strip().lower() for line in open(args.ignore_words)])
+        else:
+            iwset = set()
         for vuln in d.cvemap.values():
             if vuln.cve in ignores:
                 continue
             wset = set(nws.sub(' ', vuln.description).lower().split())
-            for item in (wset & pset):
+            for item in ((wset & pset) - iwset):
                 reportlist.append(
                     ItemReport(
                         vuln,
@@ -201,7 +212,7 @@ def main():
                         'Package name occurs in description'
                     )
                 )
-            for item in (wset & lset):
+            for item in ((wset & lset) - iwset):
                 reportlist.append(
                     ItemReport(
                         vuln,
@@ -209,7 +220,7 @@ def main():
                         'Library name occurs in description'
                     )
                 )
-            for item in (wset & mset):
+            for item in ((wset & mset) - iwset):
                 reportlist.append(
                     ItemReport(
                         vuln,
