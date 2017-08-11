@@ -24,7 +24,8 @@ will explicate the various parameters and options:
 
 ```
 usage: vulndigester.py [-h] [--html] [--description]
-                       [--ignore-words IGNORE_WORDS] [--env ENV]
+                       [--ignore-words /path/to/word/list]
+                       [--env /path/to/environment/root]
                        vfile pkgfile libfile modfile
 
 Check for vulnerabilities in lists of modules, packages, libraries
@@ -41,8 +42,9 @@ optional arguments:
   -h, --help            show this help message and exit
   --html                HTML output rather than text
   --description, -d     Search language of descriptions as well as CPE codes
-  --ignore-words IGNORE_WORDS, -i IGNORE_WORDS
+  --ignore-words /path/to/word/list, -i /path/to/word/list
                         File containing a list of words to ignore in
                         descriptions, one per line.
-  --env ENV             Conda environment root
+  --env /path/to/environment/root
+                        Conda environment root
 ```
