@@ -23,20 +23,26 @@ vulnfinder.py can be run by itself as well if you already have lists of modules,
 will explicate the various parameters and options:
 
 ```
-usage: vulndigester.py [-h] [--html] [--description] [--env ENV]
+usage: vulndigester.py [-h] [--html] [--description]
+                       [--ignore-words IGNORE_WORDS] [--env ENV]
                        vfile pkgfile libfile modfile
 
 Check for vulnerabilities in lists of modules, packages, libraries
 
 positional arguments:
-  vfile              JSON file from NVD
-  pkgfile            a list of packages in a Conda environment, one per line
-  libfile            a list of libraries in a Conda environment, one per line
-  modfile            a list of modules in a Conda environment, one per line
+  vfile                 JSON file from NVD
+  pkgfile               a list of packages in a Conda environment, one per
+                        line
+  libfile               a list of libraries in a Conda environment, one per
+                        line
+  modfile               a list of modules in a Conda environment, one per line
 
 optional arguments:
-  -h, --help         show this help message and exit
-  --html             HTML output rather than text
-  --description, -d  Search language of descriptions as well as CPE codes
-  --env ENV          Conda environment root
+  -h, --help            show this help message and exit
+  --html                HTML output rather than text
+  --description, -d     Search language of descriptions as well as CPE codes
+  --ignore-words IGNORE_WORDS, -i IGNORE_WORDS
+                        File containing a list of words to ignore in
+                        descriptions, one per line.
+  --env ENV             Conda environment root
 ```
