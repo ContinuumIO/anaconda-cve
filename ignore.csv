@@ -1,11 +1,73 @@
 cvecode,comment
 CVE-2099-9999,"Ignore this CVE when it comes up in a search, because it's bogus"
-CVE-2007-4207,"This is bogus too"
-CVE-2016-4330,"Related to HDF5 1.8.16"
-CVE-2016-4331,"Related to HDF5 1.8.16"
-CVE-2016-4332,"Related to HDF5 1.8.16"
-CVE-2016-4333,"Related to HDF5 1.8.16"
-CVE-2016-4449,"Related to libxml2 before 2.9.4"
-CVE-2016-4447,"Related to libxml2 before 2.9.4"
-CVE-2016-10087,"Related to libpng 0.71 before 1.0.67	 1.2.x before 1.2.57	 1.4.x before 1.4.20	 1.5.x before 1.5.28"
-CVE-2016-1684,"Related to libxslt before 1.1.29"
+CVE-2007-4207,This is bogus too
+CVE-2016-4330,Related to HDF5 1.8.16
+CVE-2016-4331,Related to HDF5 1.8.16
+CVE-2016-4332,Related to HDF5 1.8.16
+CVE-2016-4333,Related to HDF5 1.8.16
+CVE-2016-4449,Related to libxml2 before 2.9.4
+CVE-2016-4447,Related to libxml2 before 2.9.4
+CVE-2016-10087,Related to libpng 0.71 before 1.0.67 or 1.2.x before 1.2.57 or 1.4.x before 1.4.20 or 1.5.x before 1.5.28 or 1.6.x before 1.6.27
+CVE-2016-1684,Related to libxslt before 1.1.29
+CVE-2007-0242,Related to Qt 3.3.8 and 4.2.3
+CVE-2015-2112,Not related to Distributed package
+CVE-2015-1332,Related to oxide-qt package and not QT
+CVE-2015-5302,Related to Anaconda program not the distribution
+CVE-2017-2810,Not related to package
+CVE-2017-0332,Related to NVIDIA crypto driver not pycrypto
+CVE-2017-11692,Related to yaml-cpp 0.5.3
+CVE-2017-7728,Not related to cryptography package
+CVE-2017-2520,Related to iOS bug
+CVE-2017-3291,Not related to packaging package
+CVE-2017-7299,Not related to distributed package
+CVE-2017-9980,Related to Green Packet DX-350 Firmware version v2.8.9.5-g1.4.8-atheeb
+CVE-2017-7013,Related to iOS bug
+CVE-2017-6678,Related to Cisco Virtualized Packet Core-Distributed Instance (VPC-DI) Software 19.2 through 21.0
+CVE-2017-5682,Related to Intel PSET Application
+CVE-2017-12448,Not related to Distributed package
+CVE-2017-12449,Not related to Distributed package
+CVE-2017-7237,Not related to Distributed package
+CVE-2017-6654,Not related to click package
+CVE-2017-6960,Related to apng2gif 1.7 not imagesize package
+CVE-2017-0520,Not related to cryptography package
+CVE-2017-3890,Related to Appliance-X not click package
+CVE-2017-5949,Related to JavaScriptCore not distributed package
+CVE-2017-6615,Not related to cryptography package
+CVE-2017-6983,Related to iOS bug not SQLite package
+CVE-2017-5992,Related to Openpyxl 2.4.1
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
+CVE-2017-5992,Openpyxl 2.4.1
+CVE-2017-3204,Package crypto not cryptography
+CVE-2017-3754,Notebook not Jupyter Notebook
+CVE-2017-11144,Related to PHP
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
+CVE-2017-2384,Related to iOS bug
+CVE-2017-8829,Related to lintian through 2.5.50.3
+CVE-2017-8826,Related to FastStone Image Viewer 6.2
+CVE-2017-5950,yaml-cpp
+CVE-2017-3265,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging)
+CVE-2017-9135,Mimosa Client Radios before 2.2.4
+CVE-2017-5673,Kunena extension 5.0.2 through 5.0.4
+CVE-2017-6004,Related to PHP
+CVE-2017-2513,Related to iOS bug not SQLite package
+CVE-2017-2519,Related to iOS bug not SQLite package
+CVE-2017-2518,Related to iOS bug not SQLite package
+CVE-2017-1000376,Related to libffi
+CVE-2017-9614,Related to libjpeg
+CVE-2017-7609,elf_compress.c in elfutils 0.168
+CVE-2017-2295,Versions of Puppet prior to 4.10.1
+CVE-2017-2292,Versions of MCollective prior to 2.10.4
+CVE-2017-11742,Related to libexpat
+CVE-2017-5849,tiffttopnm in netpbm 10.47.63
+CVE-2017-9233,libexpat 2.2.0
+CVE-2017-3312,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging)
+CVE-2017-3747,Lenovo Nerve Center for Windows 10
+CVE-2017-5681,Intel QuickAssist Technology (QAT) Engine for OpenSSL versions prior to 0.5.19
+CVE-2017-7010,Related to iOS bug
+CVE-2017-6991,Related to iOS bug not SQLite package
+CVE-2017-8849,smb4k before 2.0.1
+CVE-2017-5992,Openpyxl 2.4.1
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
+CVE-2017-9233,libexpat 2.2.0
+CVE-2017-2384,Related to iOS bug not SQLite package
+,
