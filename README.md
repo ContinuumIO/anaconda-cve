@@ -1,6 +1,6 @@
 # anaconda-cve
 Compare vulnerabilities list available from NIST NVD against a conda environment and flag possible problems.
-
+This will run on Linux/Unix systems and on Windows, but needs to be run under Cygwin in the latter case. 
 Usage:
 
 `vulnfinder.sh path-to-conda-environment path-to-nvd-json-file`
