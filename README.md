@@ -12,9 +12,11 @@ For example:
  The CSV file ignore.csv contains CVE codes which have been previously determined to be false positives
  and should not be investigated again.
  
- ignore-words.txt contains a list of common words (one per line, not case sensitive) of words which occur so commonly 
+ The file ignore-words.txt contains a list of common words 
+ (one per line, not case sensitive) of words which occur so frequently 
  in vulnerability descriptions that they should be ignored, even if they match 
- the name of a module or package or library. 
+ the name of a module or package or library. (Likely false positives, in other 
+ words.)
 
  vulnfinder.sh creates the lists of modules, packages, and libraries, then calls the little Python script
  vulndigester.py. For this script there is a command-line option to produce HTML rather than text output.
