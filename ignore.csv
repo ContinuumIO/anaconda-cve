@@ -70,4 +70,50 @@ CVE-2017-5992,Openpyxl 2.4.1
 CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
 CVE-2017-9233,libexpat 2.2.0
 CVE-2017-2384,Related to iOS bug not SQLite package
-,
+CVE-2017-8924,Not related to package
+CVE-2017-6981,MacOS issue
+CVE-2017-6986,MacOS issue
+CVE-2017-6987,MacOS issue
+CVE-2017-6985,MacOS issue
+CVE-2017-6988,MacOS issue
+CVE-2017-2537,MacOS issue
+CVE-2017-9882,Related to IrfanView version 4.44 (32bit) with FPX Plugin 4.46
+CVE-2017-0663,Related to Android
+CVE-2017-5999,Related to sysPass 2.x before 2.1
+CVE-2017-5995,NetApp ONTAP Select Deploy administration utility 2.0 through 2.2.1
+CVE-2017-4970,Cloud Foundry Foundation cf-release v255 and Staticfile buildpack versions v1.4.0 - v1.4.3
+CVE-2017-4975,Pivotal PCF Tile Generator versions prior to 6.0.0
+CVE-2017-11143,PHP before 5.6.31
+CVE-2017-11145,Related to PHP 
+CVE-2017-11147,Related to PHP 
+CVE-2017-11555,LibSass 3.4.5
+CVE-2017-5607,Splunk Enterprise
+CVE-2017-6001,Race condition in kernel/events/core.c in the Linux kernel
+CVE-2017-6590,network-manager-applet (aka network-manager-gnome) in Ubuntu 12.04 LTS 14.04 LTS 16.04 LTS and 16.10
+CVE-2017-3873,"Plug-and-Play (PnP) subsystem of the Cisco Aironet 1800, 2800, and 3800 Series Access Points"
+CVE-2017-9115,Related to OpenEXR 2.2.0
+CVE-2017-10603,Junos OS CLI
+CVE-2017-6916,BigTree CMS 4.1.18
+CVE-2017-8941,Interval International app 3.3 through 3.5.1 for iOS
+CVE-2017-10913,Xen through 4.8.x
+CVE-2017-9846,Winmail Server 6.1
+CVE-2017-0881,Zulip group chat application server before 1.4.3
+CVE-2017-6017,Schneider Electric Modicon M340 PLC
+CVE-2017-0896,Zulip Server 1.5.1
+CVE-2017-9344,Wireshark 2.2.0 to 2.2.6 and 2.0.0 to 2.0.12
+CVE-2017-1304,IBM Spectrum Scale/GPFS
+CVE-2017-3311,Oracle Enterprise Manager Grid Control
+CVE-2017-2377,Apple products
+CVE-2017-9914,XnView Classic for Windows Version 2.40
+CVE-2017-9915,IrfanView version 4.44
+CVE-2017-1000035,Tiny Tiny RSS
+CVE-2017-7241,MantisBT Move Attachments
+CVE-2017-5650,Apache Tomcat 9.0.0.M1 to 9.0.0.M18 and 8.5.0 to 8.5.12
+CVE-2017-11449,ImageMagick before 7.0.6-1
+CVE-2017-8940,Zipongo - Healthy Recipes and Grocery Deals app
+CVE-2017-6845,PoDoFo 0.9.4
+CVE-2017-5634,Norwegian Air Shuttle
+CVE-2017-6802,ytnef before 1.9.2
+CVE-2017-5669,Linux kernel through 4.9.12
+CVE-2017-7875,wallpaper.c in feh before v2.18.3
+CVE-2017-11362,PHP  
