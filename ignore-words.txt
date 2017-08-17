@@ -35,4 +35,5 @@ compression
 actions
 select
 macos
-macOS 
+macOS
+window 
