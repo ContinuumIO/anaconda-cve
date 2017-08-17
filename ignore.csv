@@ -117,3 +117,81 @@ CVE-2017-6802,ytnef before 1.9.2
 CVE-2017-5669,Linux kernel through 4.9.12
 CVE-2017-7875,wallpaper.c in feh before v2.18.3
 CVE-2017-11362,PHP  
+CVE-2016-3076,Pillow 2.5.0 through 3.1.1
+CVE-2016-2867,IBM InfoSphere Streams before 4.0.1.2 and IBM Streams before 4.1.1.1
+CVE-2016-0775,Pillow before 3.1.1
+CVE-2016-7594,Issue with iOS
+CVE-2016-6653,Pivotal Cloud Foundry (PCF) cf-mysql-release 27 and 28 
+CVE-2016-7389,"NVIDIA Quadro, NVS, GeForce, and Tesla products, NVIDIA GPU Display Driver on Linux R304"
+CVE-2016-0929,Pivotal Cloud Foundry (PCF) 1.6.x before 1.6.4
+CVE-2016-9190,Pillow before 3.3.2
+CVE-2016-9137,PHP before 5.6.27 and 7.x before 7.0.12
+CVE-2016-2175,Apache PDFBox before 1.8.12 and 2.x before 2.0.1
+CVE-2016-0482,Oracle Application Testing Suite component
+CVE-2016-0480,Oracle Application Testing Suite component
+CVE-2016-0481,Oracle Application Testing Suite component
+CVE-2016-0486,Oracle Application Testing Suite component
+CVE-2016-0487,Oracle Application Testing Suite component
+CVE-2016-0484,Oracle Application Testing Suite component
+CVE-2016-0485,Oracle Application Testing Suite component
+CVE-2016-0488,Oracle Application Testing Suite component
+CVE-2016-0489,Oracle Application Testing Suite component
+CVE-2016-3751,libpng before 1.6.20
+CVE-2016-2204,Symantec Messaging Gateway (SMG) Appliance devices before 10.6.1
+CVE-2016-10400,Directory Traversal exists in ATutor before 2.2.2
+CVE-2016-8438,PIL
+CVE-2016-1000147,wordpress plugin recipes-writer v1.0.4
+CVE-2016-6793,Apache Wicket 6.x before 6.25.0 and 1.5.x before 1.5.7
+CVE-2016-7977,Ghostscript before 9.21
+CVE-2016-4534,McAfee VirusScan Console
+CVE-2016-4329,Kaspersky Anti-Virus software
+CVE-2016-4046,Open-Xchange OX App Suite before 7.8.1-rev11
+CVE-2016-3088,Apache ActiveMQ 5.x before 5.14.0
+CVE-2016-1823,Apple iOS before 9.3.2
+CVE-2016-7660,iOS before 10.2
+CVE-2016-5625,Oracle MySQL 5.7.14
+CVE-2016-3716,ImageMagick before 6.9.3-10 and 7.x
+CVE-2016-7416,PHP
+CVE-2016-1710,Google Chrome before 52.0.2743.82
+CVE-2016-7601,iOS before 10.2
+CVE-2016-4009,Pillow before 3.1.1
+CVE-2016-0491,Oracle Application Testing Suite component
+CVE-2016-0490,Oracle Application Testing Suite component
+CVE-2016-0492,Oracle Application Testing Suite component
+CVE-2016-5351,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.4
+CVE-2016-5352,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.5
+CVE-2016-9882,Cloud Foundry Foundation cf-release versions prior to v250
+CVE-2016-2830,Mozilla Firefox before 48.0 and Firefox ESR 45.x before 45.3 
+CVE-2016-2521,WiresharkApplication class
+CVE-2016-7428,Not related to interval library
+CVE-2016-4640,Apple OS X before 10.11.6
+CVE-2016-4641,Apple OS X before 10.11.7
+CVE-2016-1927,js/functions.js in phpMyAdmin 4.0.x before 4.0.10.13
+CVE-2016-0080,Microsoft Edge
+CVE-2016-10075,Not related
+CVE-2016-1683,libxslt before 1.1.29
+CVE-2016-2042,phpMyAdmin 4.4.x before 4.4.15.3 and 4.5.x before 4.5.4
+CVE-2016-0740,Pillow before 3.1.1
+CVE-2016-5472,PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.54 and 8.55 
+CVE-2016-3087,Apache Struts
+CVE-2016-2142,Not related
+CVE-2016-6406,Cisco IronPort AsyncOS
+CVE-2016-2168,Apache Subversion
+CVE-2016-6153,SQLite before 3.13.0
+CVE-2016-7118,Debian wheezy
+CVE-2016-9189,Pillow before 3.3.2 
+CVE-2016-1983,Privoxy before 3.0.24
+CVE-2016-6522,OpenBSD 5.9
+CVE-2016-6879,botan 1.11.x before 1.11.31
+CVE-2016-7832,Cybozu Dezie 8.0.0 to 8.1.1
+CVE-2016-7833,Cybozu Dezie 8.0.0 to 8.1.2
+CVE-2016-9472,Revive Adserver before 3.2.5 and 4.0.0
+CVE-2016-1660,Blink as used in Google Chrome before 50.0.2661.94
+CVE-2016-1548,NTP 4.2.8p4
+CVE-2016-3648,Symantec Endpoint Protection Manager (SEPM) 12.1
+CVE-2016-6485,Magento 2
+CVE-2016-0477,Oracle Application Testing Suite component
+CVE-2016-0476,Oracle Application Testing Suite component
+CVE-2016-0478,Oracle Application Testing Suite component
+CVE-2016-8667,QEMU (aka Quick Emulator)
+CVE-2016-3856,netd in Android
