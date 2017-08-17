@@ -35,16 +35,4 @@ compression
 actions
 select
 macos
-operator
-recipes
-streams
-parsers
-move
-window
-testing
-enum
-interval
-join
-concurrent
-nav
-interpreter 
+macOS 
