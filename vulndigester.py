@@ -6,7 +6,7 @@ from jinja2 import Template
 import argparse
 
 
-nws = re.compile("[^\w]+")
+nws = re.compile("[^\w]+")  # 'No white space'
 
 templateText="""
 <!DOCTYPE html>
@@ -20,7 +20,12 @@ Environment root: {{ environment }}
 </h2>
 {% for item in reportitems %}
     <p><p>*********<br>
-    Item type: {{ item.itype }}<br>
+    Item type: <br>
+    <blockquote>
+    {% for t in  item.itype %}
+        {{ t }}<br>
+    {% endfor %}
+    </blockquote><br>
     Name: {{ item.iname }}<br>
     CVE: {{ item.vuln.cve }}<br>
     Description: {{ item.vuln.description }}<br>
@@ -38,7 +43,8 @@ Environment root: {{ environment }}
 reportItem="""
 
 *********
-Item type: {}
+Item type: 
+ {}
 Name: {}
 CVE: {}
 Description: {}
@@ -46,14 +52,30 @@ URLS:
  {}
 
 """
-def printVuln(itype, iname, vuln):
-    print reportItem.format(
-        itype,
-        iname,
-        vuln.cve,
-        vuln.description,
-        '\n '.join(vuln.urls)
-    )
+
+def updateReports(
+        dest,
+        src
+    ):
+    """
+    Merge 'item type' descriptions into a single report
+    :param dest: a dict {cve code : ItemReport obj}
+    :param src: same as dest, or a single ItemReport obj
+    :return: Updated dest parameter
+    """
+    if isinstance(src, dict):
+        for cve, report in src.items():
+            if cve in dest:
+                dest[cve].itype += report.itype
+            else:
+                dest[cve] = report
+    else:  # a single ItemReport object -- this for convenience
+        scve = src.vuln.cve
+        if scve in dest:
+            dest[scve].itype += src.itype
+        else:
+            dest[scve] = src
+    return dest
 
 def extractFromCPE(nodes):
     elements = set()
@@ -83,15 +105,34 @@ class ItemReport(object):
     def __init__(self, vuln, iname, itype):
         self.vuln = vuln
         self.iname = iname
-        self.itype= itype
+        self.itype= [itype]
+
+    def updateReport(self, newtype):
+        self.itype.append(newtype)
+
+    def printReport(self):
+        print reportItem.format(
+            '\n '.join(self.itype),
+            self.iname,
+            self.vuln.cve,
+            self.vuln.description,
+            '\n '.join(self.vuln.urls)
+        )
 
 class Digest(object):
+    """
+    Representation of NVD vulnerabilities JSON file
+    """
 
     def __init__(
             self,
             vfile,
             ignores={}
     ):
+        """
+        :param vfile: An NVD json file
+        :param ignores: A set of CVE codes to ignore
+        """
         self.prodmap = defaultdict(set)
         self.cvemap = {}
         self.ignores = ignores
@@ -116,6 +157,7 @@ class Digest(object):
                 itype
             )
         return reports
+
 
 def main():
 
@@ -184,21 +226,27 @@ def main():
     reports = {}
 
     for item in (pset & itemset):
-        reports.update(d.itemReports(
-            item,
-            'Package (in CPE)'
+        updateReports(
+            reports,
+            d.itemReports(
+                item,
+                'Package in CPE'
             )
         )
     for item in (lset & itemset):
-        reports.update(d.itemReports(
-            item,
-            'Library (in CPE)'
+        updateReports(
+            reports,
+            d.itemReports(
+                item,
+                'Library in CPE'
             )
         )
     for item in (mset & itemset):
-        reports.update(d.itemReports(
-            item,
-            'Module (in CPE)'
+        updateReports(
+            reports,
+            d.itemReports(
+                item,
+                'Module in CPE'
             )
         )
 
@@ -213,22 +261,31 @@ def main():
                 continue
             wset = set(nws.sub(' ', vuln.description).lower().split())
             for item in ((wset & pset) - iwset):
-                reports[vuln.cve] = ItemReport(
-                    vuln,
-                    item,
-                    'Package name occurs in description'
+                updateReports(
+                    reports,
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Package name occurs in description'
+                    )
                 )
             for item in ((wset & lset) - iwset):
-                reports[vuln.cve] = ItemReport(
-                    vuln,
-                    item,
-                    'Library name occurs in description'
-            )
+                updateReports(
+                    reports,
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Library name occurs in description'
+                    )
+                )
             for item in ((wset & mset) - iwset):
-                reports[vuln.cve] = ItemReport(
-                    vuln,
-                    item,
-                    'Module name occurs in description'
+                updateReports(
+                    reports,
+                    ItemReport(
+                        vuln,
+                        item,
+                        'Module name occurs in description'
+                    )
                 )
 
     reportlist= sorted(reports.values(), key=lambda x : x.iname)
@@ -236,21 +293,17 @@ def main():
     if args.html:
             t = Template(templateText)
             print t.render(
-                filename = args.vfile,
+                filename = args.vfile.name,
                 environment = args.env,
                 reportitems = reportlist
             )
     else:
         print 'Environment: {}\nVulnerabilities file: {}\n\n'.format(
             args.env,
-            args.vfile
+            args.vfile.name
         )
         for item in reportlist:
-            printVuln(
-                item.itype,
-                item.iname,
-                item.vuln
-            )
+            item.printReport()
 
 if __name__ == '__main__':
     main()
