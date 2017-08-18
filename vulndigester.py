@@ -87,8 +87,11 @@ class ItemReport(object):
 
 class Digest(object):
 
-    def __init__(self, vfile, ignores={}):
-
+    def __init__(
+            self,
+            vfile,
+            ignores={}
+    ):
         self.prodmap = defaultdict(set)
         self.cvemap = {}
         self.ignores = ignores
@@ -102,17 +105,17 @@ class Digest(object):
             self.cvemap[v.cve] = v
 
     def itemReports(self, item, itype):
-        return [
-            ItemReport(
+        reports = {}
+        for vcode in filter(
+            lambda x: x not in self.ignores,
+            self.prodmap[item]
+        ):
+            reports[vcode] = ItemReport(
                 self.cvemap[vcode],
                 item,
                 itype
             )
-            for vcode in filter(
-                lambda x: x not in self.ignores,
-                self.prodmap[item]
-            )
-        ]
+        return reports
 
 def main():
 
@@ -178,23 +181,26 @@ def main():
     d = Digest(args.vfile, ignores=ignores)
     itemset = set(d.prodmap.keys())
 
-    reportlist = []
+    reports = {}
 
     for item in (pset & itemset):
-        reportlist += d.itemReports(
+        reports.update(d.itemReports(
             item,
             'Package (in CPE)'
             )
+        )
     for item in (lset & itemset):
-        reportlist += d.itemReports(
+        reports.update(d.itemReports(
             item,
             'Library (in CPE)'
             )
+        )
     for item in (mset & itemset):
-        reportlist += d.itemReports(
+        reports.update(d.itemReports(
             item,
             'Module (in CPE)'
             )
+        )
 
     # Search descriptions too?
     if args.description:
@@ -207,29 +213,25 @@ def main():
                 continue
             wset = set(nws.sub(' ', vuln.description).lower().split())
             for item in ((wset & pset) - iwset):
-                reportlist.append(
-                    ItemReport(
-                        vuln,
-                        item,
-                        'Package name occurs in description'
-                    )
+                reports[vuln.cve] = ItemReport(
+                    vuln,
+                    item,
+                    'Package name occurs in description'
                 )
             for item in ((wset & lset) - iwset):
-                reportlist.append(
-                    ItemReport(
-                        vuln,
-                        item,
-                        'Library name occurs in description'
-                    )
-                )
+                reports[vuln.cve] = ItemReport(
+                    vuln,
+                    item,
+                    'Library name occurs in description'
+            )
             for item in ((wset & mset) - iwset):
-                reportlist.append(
-                    ItemReport(
-                        vuln,
-                        item,
-                        'Module name occurs in description'
-                    )
+                reports[vuln.cve] = ItemReport(
+                    vuln,
+                    item,
+                    'Module name occurs in description'
                 )
+
+    reportlist= sorted(reports.values(), key=lambda x : x.iname)
 
     if args.html:
             t = Template(templateText)
