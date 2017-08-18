@@ -195,3 +195,25 @@ CVE-2016-0476,Oracle Application Testing Suite component
 CVE-2016-0478,Oracle Application Testing Suite component
 CVE-2016-8667,QEMU (aka Quick Emulator)
 CVE-2016-3856,netd in Android
+CVE-2017-11499,Node.js v4.0 through v4.8.3
+CVE-2017-11133,heinekingmedia StashCat through 1.7.5 for Android
+CVE-2017-6748,CLI parser of the Cisco Web Security Appliance (WSA)
+CVE-2017-1431,IBM InfoSphere Streams
+CVE-2017-11687,Zoho ManageEngine Event Log Analyzer 11.4
+CVE-2016-5399,PHP before 5.5.38
+CVE-2016-5242,Xen 4.4.x through 4.6.x
+CVE-2016-8745,Apache Tomcat
+CVE-2016-2774,ISC DHCP 4.1.x before 4.1-ESV-R13
+CVE-2016-1000001,flask-oidc version 0.1.2
+CVE-2016-5384,fontconfig before 2.12.1
+CVE-2016-7942,libX11 before 1.6.4
+CVE-2016-6855,glib before 2.44.1
+CVE-2016-6239,OpenBSD 5.8 and 5.9
+CVE-2016-3070,Linux kernel before 4.4
+CVE-2016-8224,Lenovo Notebook and ThinkServer systems
+CVE-2016-1283,PCRE 8.38
+CVE-2016-3191,PCRE 8.x before 8.39
+CVE-2016-2533,Python Imaging Library (PIL) 1.1.7
+CVE-2016-10040,Qt 4.8.5Ê
+CVE-2016-6142,SAP HANA DB 1.00.73.00.389160
+CVE-2016-4972,OpenStack Murano before 1.0.3
