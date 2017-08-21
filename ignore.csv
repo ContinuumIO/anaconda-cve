@@ -1,372 +1,385 @@
-cvecode,comment
-CVE-2099-9999,"Ignore this CVE when it comes up in a search, because it's bogus"
-CVE-2007-4207,This is bogus too
-CVE-2016-4330,Related to HDF5 1.8.16
-CVE-2016-4331,Related to HDF5 1.8.16
-CVE-2016-4332,Related to HDF5 1.8.16
-CVE-2016-4333,Related to HDF5 1.8.16
-CVE-2016-4449,Related to libxml2 before 2.9.4
-CVE-2016-4447,Related to libxml2 before 2.9.4
-CVE-2016-10087,Related to libpng 0.71 before 1.0.67 or 1.2.x before 1.2.57 or 1.4.x before 1.4.20 or 1.5.x before 1.5.28 or 1.6.x before 1.6.27
-CVE-2016-1684,Related to libxslt before 1.1.29
-CVE-2007-0242,Related to Qt 3.3.8 and 4.2.3
-CVE-2015-2112,Not related to Distributed package
-CVE-2015-1332,Related to oxide-qt package and not QT
-CVE-2015-5302,Related to Anaconda program not the distribution
-CVE-2017-2810,Not related to package
-CVE-2017-0332,Related to NVIDIA crypto driver not pycrypto
-CVE-2017-11692,Related to yaml-cpp 0.5.3
-CVE-2017-7728,Not related to cryptography package
-CVE-2017-2520,Related to iOS bug
-CVE-2017-3291,Not related to packaging package
-CVE-2017-7299,Not related to distributed package
-CVE-2017-9980,Related to Green Packet DX-350 Firmware version v2.8.9.5-g1.4.8-atheeb
-CVE-2017-7013,Related to iOS bug
-CVE-2017-6678,Related to Cisco Virtualized Packet Core-Distributed Instance (VPC-DI) Software 19.2 through 21.0
-CVE-2017-5682,Related to Intel PSET Application
-CVE-2017-12448,Not related to Distributed package
-CVE-2017-12449,Not related to Distributed package
-CVE-2017-7237,Not related to Distributed package
-CVE-2017-6654,Not related to click package
-CVE-2017-6960,Related to apng2gif 1.7 not imagesize package
-CVE-2017-0520,Not related to cryptography package
-CVE-2017-3890,Related to Appliance-X not click package
-CVE-2017-5949,Related to JavaScriptCore not distributed package
-CVE-2017-6615,Not related to cryptography package
-CVE-2017-6983,Related to iOS bug not SQLite package
-CVE-2017-5992,Related to Openpyxl 2.4.1
-CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
-CVE-2017-5992,Openpyxl 2.4.1
-CVE-2017-3204,Package crypto not cryptography
-CVE-2017-3754,Notebook not Jupyter Notebook
-CVE-2017-11144,Related to PHP
-CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
-CVE-2017-2384,Related to iOS bug
-CVE-2017-8829,Related to lintian through 2.5.50.3
-CVE-2017-8826,Related to FastStone Image Viewer 6.2
-CVE-2017-5950,yaml-cpp
-CVE-2017-3265,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging)
-CVE-2017-9135,Mimosa Client Radios before 2.2.4
-CVE-2017-5673,Kunena extension 5.0.2 through 5.0.4
-CVE-2017-6004,Related to PHP
-CVE-2017-2513,Related to iOS bug not SQLite package
-CVE-2017-2519,Related to iOS bug not SQLite package
-CVE-2017-2518,Related to iOS bug not SQLite package
-CVE-2017-1000376,Related to libffi
-CVE-2017-9614,Related to libjpeg
-CVE-2017-7609,elf_compress.c in elfutils 0.168
-CVE-2017-2295,Versions of Puppet prior to 4.10.1
-CVE-2017-2292,Versions of MCollective prior to 2.10.4
-CVE-2017-11742,Related to libexpat
-CVE-2017-5849,tiffttopnm in netpbm 10.47.63
-CVE-2017-9233,libexpat 2.2.0
-CVE-2017-3312,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging)
-CVE-2017-3747,Lenovo Nerve Center for Windows 10
-CVE-2017-5681,Intel QuickAssist Technology (QAT) Engine for OpenSSL versions prior to 0.5.19
-CVE-2017-7010,Related to iOS bug
-CVE-2017-6991,Related to iOS bug not SQLite package
-CVE-2017-8849,smb4k before 2.0.1
-CVE-2017-5992,Openpyxl 2.4.1
-CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d
-CVE-2017-9233,libexpat 2.2.0
-CVE-2017-2384,Related to iOS bug not SQLite package
-CVE-2017-8924,Not related to package
-CVE-2017-6981,MacOS issue
-CVE-2017-6986,MacOS issue
-CVE-2017-6987,MacOS issue
-CVE-2017-6985,MacOS issue
-CVE-2017-6988,MacOS issue
-CVE-2017-2537,MacOS issue
-CVE-2017-9882,Related to IrfanView version 4.44 (32bit) with FPX Plugin 4.46
-CVE-2017-0663,Related to Android
-CVE-2017-5999,Related to sysPass 2.x before 2.1
-CVE-2017-5995,NetApp ONTAP Select Deploy administration utility 2.0 through 2.2.1
-CVE-2017-4970,Cloud Foundry Foundation cf-release v255 and Staticfile buildpack versions v1.4.0 - v1.4.3
-CVE-2017-4975,Pivotal PCF Tile Generator versions prior to 6.0.0
-CVE-2017-11143,PHP before 5.6.31
-CVE-2017-11145,Related to PHP 
-CVE-2017-11147,Related to PHP 
-CVE-2017-11555,LibSass 3.4.5
-CVE-2017-5607,Splunk Enterprise
-CVE-2017-6001,Race condition in kernel/events/core.c in the Linux kernel
-CVE-2017-6590,network-manager-applet (aka network-manager-gnome) in Ubuntu 12.04 LTS 14.04 LTS 16.04 LTS and 16.10
-CVE-2017-3873,"Plug-and-Play (PnP) subsystem of the Cisco Aironet 1800, 2800, and 3800 Series Access Points"
-CVE-2017-9115,Related to OpenEXR 2.2.0
-CVE-2017-10603,Junos OS CLI
-CVE-2017-6916,BigTree CMS 4.1.18
-CVE-2017-8941,Interval International app 3.3 through 3.5.1 for iOS
-CVE-2017-10913,Xen through 4.8.x
-CVE-2017-9846,Winmail Server 6.1
-CVE-2017-0881,Zulip group chat application server before 1.4.3
-CVE-2017-6017,Schneider Electric Modicon M340 PLC
-CVE-2017-0896,Zulip Server 1.5.1
-CVE-2017-9344,Wireshark 2.2.0 to 2.2.6 and 2.0.0 to 2.0.12
-CVE-2017-1304,IBM Spectrum Scale/GPFS
-CVE-2017-3311,Oracle Enterprise Manager Grid Control
-CVE-2017-2377,Apple products
-CVE-2017-9914,XnView Classic for Windows Version 2.40
-CVE-2017-9915,IrfanView version 4.44
-CVE-2017-1000035,Tiny Tiny RSS
-CVE-2017-7241,MantisBT Move Attachments
-CVE-2017-5650,Apache Tomcat 9.0.0.M1 to 9.0.0.M18 and 8.5.0 to 8.5.12
-CVE-2017-11449,ImageMagick before 7.0.6-1
-CVE-2017-8940,Zipongo - Healthy Recipes and Grocery Deals app
-CVE-2017-6845,PoDoFo 0.9.4
-CVE-2017-5634,Norwegian Air Shuttle
-CVE-2017-6802,ytnef before 1.9.2
-CVE-2017-5669,Linux kernel through 4.9.12
-CVE-2017-7875,wallpaper.c in feh before v2.18.3
-CVE-2017-11362,PHP  
-CVE-2016-3076,Pillow 2.5.0 through 3.1.1
-CVE-2016-2867,IBM InfoSphere Streams before 4.0.1.2 and IBM Streams before 4.1.1.1
-CVE-2016-0775,Pillow before 3.1.1
-CVE-2016-7594,Issue with iOS
-CVE-2016-6653,Pivotal Cloud Foundry (PCF) cf-mysql-release 27 and 28 
-CVE-2016-7389,"NVIDIA Quadro, NVS, GeForce, and Tesla products, NVIDIA GPU Display Driver on Linux R304"
-CVE-2016-0929,Pivotal Cloud Foundry (PCF) 1.6.x before 1.6.4
-CVE-2016-9190,Pillow before 3.3.2
-CVE-2016-9137,PHP before 5.6.27 and 7.x before 7.0.12
-CVE-2016-2175,Apache PDFBox before 1.8.12 and 2.x before 2.0.1
-CVE-2016-0482,Oracle Application Testing Suite component
-CVE-2016-0480,Oracle Application Testing Suite component
-CVE-2016-0481,Oracle Application Testing Suite component
-CVE-2016-0486,Oracle Application Testing Suite component
-CVE-2016-0487,Oracle Application Testing Suite component
-CVE-2016-0484,Oracle Application Testing Suite component
-CVE-2016-0485,Oracle Application Testing Suite component
-CVE-2016-0488,Oracle Application Testing Suite component
-CVE-2016-0489,Oracle Application Testing Suite component
-CVE-2016-3751,libpng before 1.6.20
-CVE-2016-2204,Symantec Messaging Gateway (SMG) Appliance devices before 10.6.1
-CVE-2016-10400,Directory Traversal exists in ATutor before 2.2.2
-CVE-2016-8438,PIL
-CVE-2016-1000147,wordpress plugin recipes-writer v1.0.4
-CVE-2016-6793,Apache Wicket 6.x before 6.25.0 and 1.5.x before 1.5.7
-CVE-2016-7977,Ghostscript before 9.21
-CVE-2016-4534,McAfee VirusScan Console
-CVE-2016-4329,Kaspersky Anti-Virus software
-CVE-2016-4046,Open-Xchange OX App Suite before 7.8.1-rev11
-CVE-2016-3088,Apache ActiveMQ 5.x before 5.14.0
-CVE-2016-1823,Apple iOS before 9.3.2
-CVE-2016-7660,iOS before 10.2
-CVE-2016-5625,Oracle MySQL 5.7.14
-CVE-2016-3716,ImageMagick before 6.9.3-10 and 7.x
-CVE-2016-7416,PHP
-CVE-2016-1710,Google Chrome before 52.0.2743.82
-CVE-2016-7601,iOS before 10.2
-CVE-2016-4009,Pillow before 3.1.1
-CVE-2016-0491,Oracle Application Testing Suite component
-CVE-2016-0490,Oracle Application Testing Suite component
-CVE-2016-0492,Oracle Application Testing Suite component
-CVE-2016-5351,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.4
-CVE-2016-5352,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.5
-CVE-2016-9882,Cloud Foundry Foundation cf-release versions prior to v250
-CVE-2016-2830,Mozilla Firefox before 48.0 and Firefox ESR 45.x before 45.3 
-CVE-2016-2521,WiresharkApplication class
-CVE-2016-7428,Not related to interval library
-CVE-2016-4640,Apple OS X before 10.11.6
-CVE-2016-4641,Apple OS X before 10.11.7
-CVE-2016-1927,js/functions.js in phpMyAdmin 4.0.x before 4.0.10.13
-CVE-2016-0080,Microsoft Edge
-CVE-2016-10075,Not related
-CVE-2016-1683,libxslt before 1.1.29
-CVE-2016-2042,phpMyAdmin 4.4.x before 4.4.15.3 and 4.5.x before 4.5.4
-CVE-2016-0740,Pillow before 3.1.1
-CVE-2016-5472,PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.54 and 8.55 
-CVE-2016-3087,Apache Struts
-CVE-2016-2142,Not related
-CVE-2016-6406,Cisco IronPort AsyncOS
-CVE-2016-2168,Apache Subversion
-CVE-2016-6153,SQLite before 3.13.0
-CVE-2016-7118,Debian wheezy
-CVE-2016-9189,Pillow before 3.3.2 
-CVE-2016-1983,Privoxy before 3.0.24
-CVE-2016-6522,OpenBSD 5.9
-CVE-2016-6879,botan 1.11.x before 1.11.31
-CVE-2016-7832,Cybozu Dezie 8.0.0 to 8.1.1
-CVE-2016-7833,Cybozu Dezie 8.0.0 to 8.1.2
-CVE-2016-9472,Revive Adserver before 3.2.5 and 4.0.0
-CVE-2016-1660,Blink as used in Google Chrome before 50.0.2661.94
-CVE-2016-1548,NTP 4.2.8p4
-CVE-2016-3648,Symantec Endpoint Protection Manager (SEPM) 12.1
-CVE-2016-6485,Magento 2
-CVE-2016-0477,Oracle Application Testing Suite component
-CVE-2016-0476,Oracle Application Testing Suite component
-CVE-2016-0478,Oracle Application Testing Suite component
-CVE-2016-8667,QEMU (aka Quick Emulator)
-CVE-2016-3856,netd in Android
-CVE-2017-11499,Node.js v4.0 through v4.8.3
-CVE-2017-11133,heinekingmedia StashCat through 1.7.5 for Android
-CVE-2017-6748,CLI parser of the Cisco Web Security Appliance (WSA)
-CVE-2017-1431,IBM InfoSphere Streams
-CVE-2017-11687,Zoho ManageEngine Event Log Analyzer 11.4
-CVE-2016-5399,PHP before 5.5.38
-CVE-2016-5242,Xen 4.4.x through 4.6.x
-CVE-2016-8745,Apache Tomcat
-CVE-2016-2774,ISC DHCP 4.1.x before 4.1-ESV-R13
-CVE-2016-1000001,flask-oidc version 0.1.2
-CVE-2016-5384,fontconfig before 2.12.1
-CVE-2016-7942,libX11 before 1.6.4
-CVE-2016-6855,glib before 2.44.1
-CVE-2016-6239,OpenBSD 5.8 and 5.9
-CVE-2016-3070,Linux kernel before 4.4
-CVE-2016-8224,Lenovo Notebook and ThinkServer systems
-CVE-2016-1283,PCRE 8.38
-CVE-2016-3191,PCRE 8.x before 8.39
-CVE-2016-2533,Python Imaging Library (PIL) 1.1.7
-CVE-2016-10040,Qt 4.8.5Ê
-CVE-2016-6142,SAP HANA DB 1.00.73.00.389160
-CVE-2016-4972,OpenStack Murano before 1.0.3
-CVE-2016-9795,casrvc program in CA Common Services
-CVE-2016-10068,MSL interpreter in ImageMagick
-CVE-2016-7916,fs/proc/base.c in the Linux kernel before 4.5.4
-CVE-2016-1702,Google Chrome before 51.0.2704.79
-CVE-2016-6595,SwarmKit toolkit 1.12.0 for Docker
-CVE-2004-1392,PHP 4.0 with cURL
-CVE-2005-0490,libcURL and cURL 7.12.1
-CVE-2016-5419,curl and libcurl before 7.50.1
-CVE-2005-3185,curl 7.13.2
-CVE-2004-0768,libpng 1.2.5
-CVE-2004-0421,(libpng) 1.0.15
-CVE-2004-0599,libpng 1.2.5
-CVE-2004-0598,libpng 1.2.5 
-CVE-2004-0597,libpng 1.2.5
-CVE-2004-0803,libtiff 3.6.1
-CVE-2005-1544,libTIFF before 3.7.2
-CVE-2004-1183,libtiff 3.7.1
-CVE-2004-1308,libtiff 3.5.7
-CVE-2004-0929,libtiff 3.6.1
-CVE-2004-0886,libtiff 3.6.1
-CVE-2004-0110,(Libxml2) 2.6.0 through 2.6.5
-CVE-2004-0989,libXML 2.6.12 and 2.6.13
-CVE-2004-0112,"OpenSSL 0.9.7a, 0.9.7b, and 0.9.7c"
-CVE-2003-0544,OpenSSL 0.9.6 and 0.9.7
-CVE-2004-0081,OpenSSL 0.9.6 before 0.9.6d
-CVE-2016-2109,1.0.2 before 1.0.2h
-CVE-2004-0975,Trustix Secure Linux 1.5 through 2.1
-CVE-2003-0131,OpenSSL 0.9.6i and earlier
-CVE-2016-2182,OpenSSL before 1.1.0 
-CVE-2004-0079,OpenSSL 0.9.6c to 0.9.6k
-CVE-2005-2969,OpenSSL 0.9.7 before 0.9.7h
-CVE-2005-0089,Python 2.2
-CVE-2004-0691,QT library (qt3) before 3.3.3
-CVE-2004-0692,QT library (qt3) before 3.3.4
-CVE-2004-0693,QT library (qt3) before 3.3.5
-CVE-2004-0608,The Unreal Engine
-CVE-2005-1849,zlib 1.2.2
-CVE-2004-2059,ASPRunner 2.4
-CVE-2002-1744,Microsoft IIS 5.0
-CVE-2017-1000381,NAPTR responses
-CVE-2005-2425,Ares FileShare 1.1
-CVE-2005-0001,Linux kernel
-CVE-2003-1116,Report Review Agent (RRA)
-CVE-2005-2423,Beehive Forum
-CVE-2004-2238,vpopmail 5.4.2
-CVE-2004-1894,TEXutil in ConTEXt
-CVE-2004-2337,inlook 0.7.3
-CVE-2004-0823,OpenLDAP 1.0 through 2.1.19
-CVE-2003-0189,Apache 2.0.40 through 2.0.45
-CVE-2003-1067,Solaris 2.6
-CVE-2004-0572,Windows Program Group Converter
-CVE-2004-0594,PHP 4.x up to 4.3.7
-CVE-2004-1442,CGI interpreter in IBM Net.Data 7
-CVE-2004-0138,ELF loader in Linux kernel 2.4 before 2.4.25
-CVE-2004-1073,Linux kernel 2.4.x up to 2.4.27
-CVE-2004-1072,Linux kernel 2.4.x up to 2.4.28
-CVE-2005-1159,Firefox before 1.0.3
-CVE-2003-0824,SmartHTML interpreter
-CVE-2017-11146,PHP through 5.6.31
-CVE-2002-0385,Vignette Story Server 4.1 and 6.0
-CVE-2004-1234,Linux before 2.4.26
-CVE-2004-1208,Orbz 2.10
-CVE-2004-1207,Alpha Black Zero Intrepid Protocol 1.04
-CVE-2004-1195,Star Wars Battlefront 1.11
-CVE-2002-1668,HP-UX 11.11 and earlier
-CVE-2004-1983,Address Space Layout Randomization (ASLR)
-CVE-2005-1283,Argosoft Mail Server Pro 1.8.7.6
-CVE-2005-2396,MediaWiki 1.4.6
-CVE-2005-1491,Merak Mail Server 8.0.3 with Icewarp Web Mail 5.4.2
-CVE-2004-1674,Merak Mail Server 7.4.5 with Icewarp Web Mail 5.2.7
-CVE-2002-1777,Symantec Norton AntiVirus
-CVE-2002-1775,Symantec Norton AntiVirus
-CVE-2005-0487,Kayako ESupport 2.3.1
-CVE-2004-1942,Solaris 9
-CVE-2005-0083,MySQL MaxDB 7.5.00 for Windows
-CVE-2003-0150,MySQL 3.23.55
-CVE-2004-2553,The Ignition Project ignitionServer 0.1.2
-CVE-2004-2286,ActivePerl
-CVE-2004-2321,BEA WebLogic Server and Express 8.1 SP1
-CVE-2004-0471,BEA WebLogic Server and WebLogic Express 7.0
-CVE-2005-2681,Cisco Intrusion Prevention System 5.0(1)
-CVE-2003-1148,J-Pierre DEZELUS Les Visiteurs 2.0.1
-CVE-2017-9454,ReSIProcate before 1.12.0
-CVE-2016-7976,Ghostscript 9.18 and 9.20
-CVE-2017-8445,X-Pack Security TLS trust manager for versions 5.0.0 to 5.5.1
-CVE-2017-7210,GNU Binutils 2.28
-CVE-2017-5342,tcpdump before 4.9.0
-CVE-2008-4342,NuMedia Soft NMS DVD Burning SDK Activex
-CVE-2008-3834,D-bus library (libdbus) before 1.2.4Ê
-CVE-2009-0365,GNOME NetworkManager before 0.7.0.99
-CVE-2008-4311,D-Bus (aka DBus) before 1.2.6
-CVE-2008-3687,Xen 3.3
-CVE-2008-4316,GLib before 2.20
-CVE-2009-0397,GStreamer Good Plug-ins (aka gst-plugins-good) 0.10.9 through 0.10.11
-CVE-2008-2935,libxslt 1.1.8 through 1.1.24
-CVE-2008-5907,libpng before 1.0.42
-CVE-2008-3964,libpng before 1.2.32beta01
-CVE-2008-1382,libpng 1.0.6 through 1.0.32
-CVE-2009-0040,library (aka libpng) before 1.0.43
-CVE-2015-7894,Samsung LibQjpeg on a Samsung SM-G925V
-CVE-2008-3529,libxml2 before 2.7.0
-CVE-2008-3538,HP Enterprise Discovery 2.0 through 2.52
-CVE-2008-4409,libxml2 2.7.0 and 2.7.1
-CVE-2008-1767,libxslt before 1.1.24 
-CVE-2008-2137,linux kernel
-CVE-2008-3837,Mozilla Firefox before 2.0.0.17 and 3.x before 3.0.2
-CVE-2008-0477,QMPUpgrade.Upgrade.1 ActiveX control
-CVE-2008-4108,Python 2.4.5
-CVE-2008-0211,HP Compaq Business Notebook PC
-CVE-2009-0454,DMXReady Online Notebook Manager 1.1
-CVE-2008-0706,BIOS F.26 and earlier for the HP Compaq Notebook PC
-CVE-2008-5410,OpenSSL PKCS#11 engine in Sun Solaris 10
-CVE-2016-2178,OpenSSL through 1.0.2h
-CVE-2016-6306,OpenSSL before 1.0.1u and 1.0.2 before 1.0.2i
-CVE-2016-2177,OpenSSL through 1.0.2h
-CVE-2016-2180,OpenSSL through 1.0.2h
-CVE-2015-3195,OpenSSL 1.0.2 before 1.0.2e
-CVE-2016-2108,OpenSSL before 1.0.1o and 1.0.2 before 1.0.2c
-CVE-2016-2107,OpenSSLÊ1.0.2 before 1.0.2h
-CVE-2016-2106,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h
-CVE-2008-1678,OpenSSL 0.9.8f through 0.9.8h
-CVE-2008-1672,OpenSSL 0.9.8f and 0.9.8g
-CVE-2009-0051,ZXID 0.29 and earlier
-CVE-2009-0050,Lasso 2.2.1
-CVE-2014-0224,OpenSSL before 0.9.8za
-CVE-2016-6302,OpenSSL before 1.1.0
-CVE-2009-0161,OpenSSL::OCSP module for Ruby in Apple Mac OS X 10.5 before 10.5.7
-CVE-2008-0166,OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9
-CVE-2016-6304,OpenSSL 1.0.2 before 1.0.2i
-CVE-2008-0891,OpenSSL 0.9.8f and 0.9.8g
-CVE-2014-3571,OpenSSL before 0.9.8zd
-CVE-2015-3197,OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f
-CVE-2015-0286,OpenSSL before 0.9.8zf and 1.0.2 before 1.0.2a
-CVE-2016-7052,OpenSSL 1.0.2i
-CVE-2015-1789,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
-CVE-2015-1788,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
-CVE-2015-1790,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
-CVE-2015-1791,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
-CVE-2015-1792,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
-CVE-2016-2105,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h
-CVE-2008-0674,PCRE before 7.6
-CVE-2008-1026,Safari before 3.1.1
-CVE-2009-0544,PyCrypto ARC2 module 2.0.1
-CVE-2008-1316,QT-cute QuickTalk Forum 1.6
-CVE-2008-1585,Apple QuickTime before 7.5 
-CVE-2008-0518,Mambo and Joomla
-CVE-2008-5808,Six Apart Movable Type Enterprise (MTE) 1.x before 1.56
-CVE-2008-5846,Six Apart Movable Type (MT) before 4.23
-CVE-2004-2759,Shared Sun StorEdge QFS and SAM-QFS file systems
-CVE-2009-0149,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7
-CVE-2009-0150,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7
-CVE-2008-5264,Tornado Knowledge Retrieval System 4.2
-CVE-2008-3700,Kayako SupportSuite 3.20.02
+cvecode,comment,,
+CVE-2099-9999,"Ignore this CVE when it comes up in a search, because it's bogus",,
+CVE-2007-4207,This is bogus too,,
+CVE-2016-4330,Related to HDF5 1.8.16,,
+CVE-2016-4331,Related to HDF5 1.8.16,,
+CVE-2016-4332,Related to HDF5 1.8.16,,
+CVE-2016-4333,Related to HDF5 1.8.16,,
+CVE-2016-4449,Related to libxml2 before 2.9.4,,
+CVE-2016-4447,Related to libxml2 before 2.9.4,,
+CVE-2016-10087,Related to libpng 0.71 before 1.0.67 or 1.2.x before 1.2.57 or 1.4.x before 1.4.20 or 1.5.x before 1.5.28 or 1.6.x before 1.6.27,,
+CVE-2016-1684,Related to libxslt before 1.1.29,,
+CVE-2007-0242,Related to Qt 3.3.8 and 4.2.3,,
+CVE-2015-2112,Not related to Distributed package,,
+CVE-2015-1332,Related to oxide-qt package and not QT,,
+CVE-2015-5302,Related to Anaconda program not the distribution,,
+CVE-2017-2810,Not related to package,,
+CVE-2017-0332,Related to NVIDIA crypto driver not pycrypto,,
+CVE-2017-11692,Related to yaml-cpp 0.5.3,,
+CVE-2017-7728,Not related to cryptography package,,
+CVE-2017-2520,Related to iOS bug,,
+CVE-2017-3291,Not related to packaging package,,
+CVE-2017-7299,Not related to distributed package,,
+CVE-2017-9980,Related to Green Packet DX-350 Firmware version v2.8.9.5-g1.4.8-atheeb,,
+CVE-2017-7013,Related to iOS bug,,
+CVE-2017-6678,Related to Cisco Virtualized Packet Core-Distributed Instance (VPC-DI) Software 19.2 through 21.0,,
+CVE-2017-5682,Related to Intel PSET Application,,
+CVE-2017-12448,Not related to Distributed package,,
+CVE-2017-12449,Not related to Distributed package,,
+CVE-2017-7237,Not related to Distributed package,,
+CVE-2017-6654,Not related to click package,,
+CVE-2017-6960,Related to apng2gif 1.7 not imagesize package,,
+CVE-2017-0520,Not related to cryptography package,,
+CVE-2017-3890,Related to Appliance-X not click package,,
+CVE-2017-5949,Related to JavaScriptCore not distributed package,,
+CVE-2017-6615,Not related to cryptography package,,
+CVE-2017-6983,Related to iOS bug not SQLite package,,
+CVE-2017-5992,Related to Openpyxl 2.4.1,,
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d,,
+CVE-2017-5992,Openpyxl 2.4.1,,
+CVE-2017-3204,Package crypto not cryptography,,
+CVE-2017-3754,Notebook not Jupyter Notebook,,
+CVE-2017-11144,Related to PHP,,
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d,,
+CVE-2017-2384,Related to iOS bug,,
+CVE-2017-8829,Related to lintian through 2.5.50.3,,
+CVE-2017-8826,Related to FastStone Image Viewer 6.2,,
+CVE-2017-5950,yaml-cpp,,
+CVE-2017-3265,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging),,
+CVE-2017-9135,Mimosa Client Radios before 2.2.4,,
+CVE-2017-5673,Kunena extension 5.0.2 through 5.0.4,,
+CVE-2017-6004,Related to PHP,,
+CVE-2017-2513,Related to iOS bug not SQLite package,,
+CVE-2017-2519,Related to iOS bug not SQLite package,,
+CVE-2017-2518,Related to iOS bug not SQLite package,,
+CVE-2017-1000376,Related to libffi,,
+CVE-2017-9614,Related to libjpeg,,
+CVE-2017-7609,elf_compress.c in elfutils 0.168,,
+CVE-2017-2295,Versions of Puppet prior to 4.10.1,,
+CVE-2017-2292,Versions of MCollective prior to 2.10.4,,
+CVE-2017-11742,Related to libexpat,,
+CVE-2017-5849,tiffttopnm in netpbm 10.47.63,,
+CVE-2017-9233,libexpat 2.2.0,,
+CVE-2017-3312,MySQL Server component of Oracle MySQL (subcomponent: Server: Packaging),,
+CVE-2017-3747,Lenovo Nerve Center for Windows 10,,
+CVE-2017-5681,Intel QuickAssist Technology (QAT) Engine for OpenSSL versions prior to 0.5.19,,
+CVE-2017-7010,Related to iOS bug,,
+CVE-2017-6991,Related to iOS bug not SQLite package,,
+CVE-2017-8849,smb4k before 2.0.1,,
+CVE-2017-5992,Openpyxl 2.4.1,,
+CVE-2017-3732,OpenSSL 1.0.2 before 1.0.2k and 1.1.0 before 1.1.0d,,
+CVE-2017-9233,libexpat 2.2.0,,
+CVE-2017-2384,Related to iOS bug not SQLite package,,
+CVE-2017-8924,Not related to package,,
+CVE-2017-6981,MacOS issue,,
+CVE-2017-6986,MacOS issue,,
+CVE-2017-6987,MacOS issue,,
+CVE-2017-6985,MacOS issue,,
+CVE-2017-6988,MacOS issue,,
+CVE-2017-2537,MacOS issue,,
+CVE-2017-9882,Related to IrfanView version 4.44 (32bit) with FPX Plugin 4.46,,
+CVE-2017-0663,Related to Android,,
+CVE-2017-5999,Related to sysPass 2.x before 2.1,,
+CVE-2017-5995,NetApp ONTAP Select Deploy administration utility 2.0 through 2.2.1,,
+CVE-2017-4970,Cloud Foundry Foundation cf-release v255 and Staticfile buildpack versions v1.4.0 - v1.4.3,,
+CVE-2017-4975,Pivotal PCF Tile Generator versions prior to 6.0.0,,
+CVE-2017-11143,PHP before 5.6.31,,
+CVE-2017-11145,Related to PHP ,,
+CVE-2017-11147,Related to PHP ,,
+CVE-2017-11555,LibSass 3.4.5,,
+CVE-2017-5607,Splunk Enterprise,,
+CVE-2017-6001,Race condition in kernel/events/core.c in the Linux kernel,,
+CVE-2017-6590,network-manager-applet (aka network-manager-gnome) in Ubuntu 12.04 LTS 14.04 LTS 16.04 LTS and 16.10,,
+CVE-2017-3873,"Plug-and-Play (PnP) subsystem of the Cisco Aironet 1800, 2800, and 3800 Series Access Points",,
+CVE-2017-9115,Related to OpenEXR 2.2.0,,
+CVE-2017-10603,Junos OS CLI,,
+CVE-2017-6916,BigTree CMS 4.1.18,,
+CVE-2017-8941,Interval International app 3.3 through 3.5.1 for iOS,,
+CVE-2017-10913,Xen through 4.8.x,,
+CVE-2017-9846,Winmail Server 6.1,,
+CVE-2017-0881,Zulip group chat application server before 1.4.3,,
+CVE-2017-6017,Schneider Electric Modicon M340 PLC,,
+CVE-2017-0896,Zulip Server 1.5.1,,
+CVE-2017-9344,Wireshark 2.2.0 to 2.2.6 and 2.0.0 to 2.0.12,,
+CVE-2017-1304,IBM Spectrum Scale/GPFS,,
+CVE-2017-3311,Oracle Enterprise Manager Grid Control,,
+CVE-2017-2377,Apple products,,
+CVE-2017-9914,XnView Classic for Windows Version 2.40,,
+CVE-2017-9915,IrfanView version 4.44,,
+CVE-2017-1000035,Tiny Tiny RSS,,
+CVE-2017-7241,MantisBT Move Attachments,,
+CVE-2017-5650,Apache Tomcat 9.0.0.M1 to 9.0.0.M18 and 8.5.0 to 8.5.12,,
+CVE-2017-11449,ImageMagick before 7.0.6-1,,
+CVE-2017-8940,Zipongo - Healthy Recipes and Grocery Deals app,,
+CVE-2017-6845,PoDoFo 0.9.4,,
+CVE-2017-5634,Norwegian Air Shuttle,,
+CVE-2017-6802,ytnef before 1.9.2,,
+CVE-2017-5669,Linux kernel through 4.9.12,,
+CVE-2017-7875,wallpaper.c in feh before v2.18.3,,
+CVE-2017-11362,PHP  ,,
+CVE-2016-3076,Pillow 2.5.0 through 3.1.1,,
+CVE-2016-2867,IBM InfoSphere Streams before 4.0.1.2 and IBM Streams before 4.1.1.1,,
+CVE-2016-0775,Pillow before 3.1.1,,
+CVE-2016-7594,Issue with iOS,,
+CVE-2016-6653,Pivotal Cloud Foundry (PCF) cf-mysql-release 27 and 28 ,,
+CVE-2016-7389,"NVIDIA Quadro, NVS, GeForce, and Tesla products, NVIDIA GPU Display Driver on Linux R304",,
+CVE-2016-0929,Pivotal Cloud Foundry (PCF) 1.6.x before 1.6.4,,
+CVE-2016-9190,Pillow before 3.3.2,,
+CVE-2016-9137,PHP before 5.6.27 and 7.x before 7.0.12,,
+CVE-2016-2175,Apache PDFBox before 1.8.12 and 2.x before 2.0.1,,
+CVE-2016-0482,Oracle Application Testing Suite component,,
+CVE-2016-0480,Oracle Application Testing Suite component,,
+CVE-2016-0481,Oracle Application Testing Suite component,,
+CVE-2016-0486,Oracle Application Testing Suite component,,
+CVE-2016-0487,Oracle Application Testing Suite component,,
+CVE-2016-0484,Oracle Application Testing Suite component,,
+CVE-2016-0485,Oracle Application Testing Suite component,,
+CVE-2016-0488,Oracle Application Testing Suite component,,
+CVE-2016-0489,Oracle Application Testing Suite component,,
+CVE-2016-3751,libpng before 1.6.20,,
+CVE-2016-2204,Symantec Messaging Gateway (SMG) Appliance devices before 10.6.1,,
+CVE-2016-10400,Directory Traversal exists in ATutor before 2.2.2,,
+CVE-2016-8438,PIL,,
+CVE-2016-1000147,wordpress plugin recipes-writer v1.0.4,,
+CVE-2016-6793,Apache Wicket 6.x before 6.25.0 and 1.5.x before 1.5.7,,
+CVE-2016-7977,Ghostscript before 9.21,,
+CVE-2016-4534,McAfee VirusScan Console,,
+CVE-2016-4329,Kaspersky Anti-Virus software,,
+CVE-2016-4046,Open-Xchange OX App Suite before 7.8.1-rev11,,
+CVE-2016-3088,Apache ActiveMQ 5.x before 5.14.0,,
+CVE-2016-1823,Apple iOS before 9.3.2,,
+CVE-2016-7660,iOS before 10.2,,
+CVE-2016-5625,Oracle MySQL 5.7.14,,
+CVE-2016-3716,ImageMagick before 6.9.3-10 and 7.x,,
+CVE-2016-7416,PHP,,
+CVE-2016-1710,Google Chrome before 52.0.2743.82,,
+CVE-2016-7601,iOS before 10.2,,
+CVE-2016-4009,Pillow before 3.1.1,,
+CVE-2016-0491,Oracle Application Testing Suite component,,
+CVE-2016-0490,Oracle Application Testing Suite component,,
+CVE-2016-0492,Oracle Application Testing Suite component,,
+CVE-2016-5351,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.4,,
+CVE-2016-5352,Wireshark 1.12.x before 1.12.12 and 2.x before 2.0.5,,
+CVE-2016-9882,Cloud Foundry Foundation cf-release versions prior to v250,,
+CVE-2016-2830,Mozilla Firefox before 48.0 and Firefox ESR 45.x before 45.3 ,,
+CVE-2016-2521,WiresharkApplication class,,
+CVE-2016-7428,Not related to interval library,,
+CVE-2016-4640,Apple OS X before 10.11.6,,
+CVE-2016-4641,Apple OS X before 10.11.7,,
+CVE-2016-1927,js/functions.js in phpMyAdmin 4.0.x before 4.0.10.13,,
+CVE-2016-0080,Microsoft Edge,,
+CVE-2016-10075,Not related,,
+CVE-2016-1683,libxslt before 1.1.29,,
+CVE-2016-2042,phpMyAdmin 4.4.x before 4.4.15.3 and 4.5.x before 4.5.4,,
+CVE-2016-0740,Pillow before 3.1.1,,
+CVE-2016-5472,PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.54 and 8.55 ,,
+CVE-2016-3087,Apache Struts,,
+CVE-2016-2142,Not related,,
+CVE-2016-6406,Cisco IronPort AsyncOS,,
+CVE-2016-2168,Apache Subversion,,
+CVE-2016-6153,SQLite before 3.13.0,,
+CVE-2016-7118,Debian wheezy,,
+CVE-2016-9189,Pillow before 3.3.2 ,,
+CVE-2016-1983,Privoxy before 3.0.24,,
+CVE-2016-6522,OpenBSD 5.9,,
+CVE-2016-6879,botan 1.11.x before 1.11.31,,
+CVE-2016-7832,Cybozu Dezie 8.0.0 to 8.1.1,,
+CVE-2016-7833,Cybozu Dezie 8.0.0 to 8.1.2,,
+CVE-2016-9472,Revive Adserver before 3.2.5 and 4.0.0,,
+CVE-2016-1660,Blink as used in Google Chrome before 50.0.2661.94,,
+CVE-2016-1548,NTP 4.2.8p4,,
+CVE-2016-3648,Symantec Endpoint Protection Manager (SEPM) 12.1,,
+CVE-2016-6485,Magento 2,,
+CVE-2016-0477,Oracle Application Testing Suite component,,
+CVE-2016-0476,Oracle Application Testing Suite component,,
+CVE-2016-0478,Oracle Application Testing Suite component,,
+CVE-2016-8667,QEMU (aka Quick Emulator),,
+CVE-2016-3856,netd in Android,,
+CVE-2017-11499,Node.js v4.0 through v4.8.3,,
+CVE-2017-11133,heinekingmedia StashCat through 1.7.5 for Android,,
+CVE-2017-6748,CLI parser of the Cisco Web Security Appliance (WSA),,
+CVE-2017-1431,IBM InfoSphere Streams,,
+CVE-2017-11687,Zoho ManageEngine Event Log Analyzer 11.4,,
+CVE-2016-5399,PHP before 5.5.38,,
+CVE-2016-5242,Xen 4.4.x through 4.6.x,,
+CVE-2016-8745,Apache Tomcat,,
+CVE-2016-2774,ISC DHCP 4.1.x before 4.1-ESV-R13,,
+CVE-2016-1000001,flask-oidc version 0.1.2,,
+CVE-2016-5384,fontconfig before 2.12.1,,
+CVE-2016-7942,libX11 before 1.6.4,,
+CVE-2016-6855,glib before 2.44.1,,
+CVE-2016-6239,OpenBSD 5.8 and 5.9,,
+CVE-2016-3070,Linux kernel before 4.4,,
+CVE-2016-8224,Lenovo Notebook and ThinkServer systems,,
+CVE-2016-1283,PCRE 8.38,,
+CVE-2016-3191,PCRE 8.x before 8.39,,
+CVE-2016-2533,Python Imaging Library (PIL) 1.1.7,,
+CVE-2016-10040,Qt 4.8.5Ê,,
+CVE-2016-6142,SAP HANA DB 1.00.73.00.389160,,
+CVE-2016-4972,OpenStack Murano before 1.0.3,,
+CVE-2016-9795,casrvc program in CA Common Services,,
+CVE-2016-10068,MSL interpreter in ImageMagick,,
+CVE-2016-7916,fs/proc/base.c in the Linux kernel before 4.5.4,,
+CVE-2016-1702,Google Chrome before 51.0.2704.79,,
+CVE-2016-6595,SwarmKit toolkit 1.12.0 for Docker,,
+CVE-2004-1392,PHP 4.0 with cURL,,
+CVE-2005-0490,libcURL and cURL 7.12.1,,
+CVE-2016-5419,curl and libcurl before 7.50.1,,
+CVE-2005-3185,curl 7.13.2,,
+CVE-2004-0768,libpng 1.2.5,,
+CVE-2004-0421,(libpng) 1.0.15,,
+CVE-2004-0599,libpng 1.2.5,,
+CVE-2004-0598,libpng 1.2.5 ,,
+CVE-2004-0597,libpng 1.2.5,,
+CVE-2004-0803,libtiff 3.6.1,,
+CVE-2005-1544,libTIFF before 3.7.2,,
+CVE-2004-1183,libtiff 3.7.1,,
+CVE-2004-1308,libtiff 3.5.7,,
+CVE-2004-0929,libtiff 3.6.1,,
+CVE-2004-0886,libtiff 3.6.1,,
+CVE-2004-0110,(Libxml2) 2.6.0 through 2.6.5,,
+CVE-2004-0989,libXML 2.6.12 and 2.6.13,,
+CVE-2004-0112,"OpenSSL 0.9.7a, 0.9.7b, and 0.9.7c",,
+CVE-2003-0544,OpenSSL 0.9.6 and 0.9.7,,
+CVE-2004-0081,OpenSSL 0.9.6 before 0.9.6d,,
+CVE-2016-2109,1.0.2 before 1.0.2h,,
+CVE-2004-0975,Trustix Secure Linux 1.5 through 2.1,,
+CVE-2003-0131,OpenSSL 0.9.6i and earlier,,
+CVE-2016-2182,OpenSSL before 1.1.0 ,,
+CVE-2004-0079,OpenSSL 0.9.6c to 0.9.6k,,
+CVE-2005-2969,OpenSSL 0.9.7 before 0.9.7h,,
+CVE-2005-0089,Python 2.2,,
+CVE-2004-0691,QT library (qt3) before 3.3.3,,
+CVE-2004-0692,QT library (qt3) before 3.3.4,,
+CVE-2004-0693,QT library (qt3) before 3.3.5,,
+CVE-2004-0608,The Unreal Engine,,
+CVE-2005-1849,zlib 1.2.2,,
+CVE-2004-2059,ASPRunner 2.4,,
+CVE-2002-1744,Microsoft IIS 5.0,,
+CVE-2017-1000381,NAPTR responses,,
+CVE-2005-2425,Ares FileShare 1.1,,
+CVE-2005-0001,Linux kernel,,
+CVE-2003-1116,Report Review Agent (RRA),,
+CVE-2005-2423,Beehive Forum,,
+CVE-2004-2238,vpopmail 5.4.2,,
+CVE-2004-1894,TEXutil in ConTEXt,,
+CVE-2004-2337,inlook 0.7.3,,
+CVE-2004-0823,OpenLDAP 1.0 through 2.1.19,,
+CVE-2003-0189,Apache 2.0.40 through 2.0.45,,
+CVE-2003-1067,Solaris 2.6,,
+CVE-2004-0572,Windows Program Group Converter,,
+CVE-2004-0594,PHP 4.x up to 4.3.7,,
+CVE-2004-1442,CGI interpreter in IBM Net.Data 7,,
+CVE-2004-0138,ELF loader in Linux kernel 2.4 before 2.4.25,,
+CVE-2004-1073,Linux kernel 2.4.x up to 2.4.27,,
+CVE-2004-1072,Linux kernel 2.4.x up to 2.4.28,,
+CVE-2005-1159,Firefox before 1.0.3,,
+CVE-2003-0824,SmartHTML interpreter,,
+CVE-2017-11146,PHP through 5.6.31,,
+CVE-2002-0385,Vignette Story Server 4.1 and 6.0,,
+CVE-2004-1234,Linux before 2.4.26,,
+CVE-2004-1208,Orbz 2.10,,
+CVE-2004-1207,Alpha Black Zero Intrepid Protocol 1.04,,
+CVE-2004-1195,Star Wars Battlefront 1.11,,
+CVE-2002-1668,HP-UX 11.11 and earlier,,
+CVE-2004-1983,Address Space Layout Randomization (ASLR),,
+CVE-2005-1283,Argosoft Mail Server Pro 1.8.7.6,,
+CVE-2005-2396,MediaWiki 1.4.6,,
+CVE-2005-1491,Merak Mail Server 8.0.3 with Icewarp Web Mail 5.4.2,,
+CVE-2004-1674,Merak Mail Server 7.4.5 with Icewarp Web Mail 5.2.7,,
+CVE-2002-1777,Symantec Norton AntiVirus,,
+CVE-2002-1775,Symantec Norton AntiVirus,,
+CVE-2005-0487,Kayako ESupport 2.3.1,,
+CVE-2004-1942,Solaris 9,,
+CVE-2005-0083,MySQL MaxDB 7.5.00 for Windows,,
+CVE-2003-0150,MySQL 3.23.55,,
+CVE-2004-2553,The Ignition Project ignitionServer 0.1.2,,
+CVE-2004-2286,ActivePerl,,
+CVE-2004-2321,BEA WebLogic Server and Express 8.1 SP1,,
+CVE-2004-0471,BEA WebLogic Server and WebLogic Express 7.0,,
+CVE-2005-2681,Cisco Intrusion Prevention System 5.0(1),,
+CVE-2003-1148,J-Pierre DEZELUS Les Visiteurs 2.0.1,,
+CVE-2017-9454,ReSIProcate before 1.12.0,,
+CVE-2016-7976,Ghostscript 9.18 and 9.20,,
+CVE-2017-8445,X-Pack Security TLS trust manager for versions 5.0.0 to 5.5.1,,
+CVE-2017-7210,GNU Binutils 2.28,,
+CVE-2017-5342,tcpdump before 4.9.0,,
+CVE-2008-4342,NuMedia Soft NMS DVD Burning SDK Activex,,
+CVE-2008-3834,D-bus library (libdbus) before 1.2.4Ê,,
+CVE-2009-0365,GNOME NetworkManager before 0.7.0.99,,
+CVE-2008-4311,D-Bus (aka DBus) before 1.2.6,,
+CVE-2008-3687,Xen 3.3,,
+CVE-2008-4316,GLib before 2.20,,
+CVE-2009-0397,GStreamer Good Plug-ins (aka gst-plugins-good) 0.10.9 through 0.10.11,,
+CVE-2008-2935,libxslt 1.1.8 through 1.1.24,,
+CVE-2008-5907,libpng before 1.0.42,,
+CVE-2008-3964,libpng before 1.2.32beta01,,
+CVE-2008-1382,libpng 1.0.6 through 1.0.32,,
+CVE-2009-0040,library (aka libpng) before 1.0.43,,
+CVE-2015-7894,Samsung LibQjpeg on a Samsung SM-G925V,,
+CVE-2008-3529,libxml2 before 2.7.0,,
+CVE-2008-3538,HP Enterprise Discovery 2.0 through 2.52,,
+CVE-2008-4409,libxml2 2.7.0 and 2.7.1,,
+CVE-2008-1767,libxslt before 1.1.24 ,,
+CVE-2008-2137,linux kernel,,
+CVE-2008-3837,Mozilla Firefox before 2.0.0.17 and 3.x before 3.0.2,,
+CVE-2008-0477,QMPUpgrade.Upgrade.1 ActiveX control,,
+CVE-2008-4108,Python 2.4.5,,
+CVE-2008-0211,HP Compaq Business Notebook PC,,
+CVE-2009-0454,DMXReady Online Notebook Manager 1.1,,
+CVE-2008-0706,BIOS F.26 and earlier for the HP Compaq Notebook PC,,
+CVE-2008-5410,OpenSSL PKCS#11 engine in Sun Solaris 10,,
+CVE-2016-2178,OpenSSL through 1.0.2h,,
+CVE-2016-6306,OpenSSL before 1.0.1u and 1.0.2 before 1.0.2i,,
+CVE-2016-2177,OpenSSL through 1.0.2h,,
+CVE-2016-2180,OpenSSL through 1.0.2h,,
+CVE-2015-3195,OpenSSL 1.0.2 before 1.0.2e,,
+CVE-2016-2108,OpenSSL before 1.0.1o and 1.0.2 before 1.0.2c,,
+CVE-2016-2107,OpenSSLÊ1.0.2 before 1.0.2h,,
+CVE-2016-2106,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h,,
+CVE-2008-1678,OpenSSL 0.9.8f through 0.9.8h,,
+CVE-2008-1672,OpenSSL 0.9.8f and 0.9.8g,,
+CVE-2009-0051,ZXID 0.29 and earlier,,
+CVE-2009-0050,Lasso 2.2.1,,
+CVE-2014-0224,OpenSSL before 0.9.8za,,
+CVE-2016-6302,OpenSSL before 1.1.0,,
+CVE-2009-0161,OpenSSL::OCSP module for Ruby in Apple Mac OS X 10.5 before 10.5.7,,
+CVE-2008-0166,OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9,,
+CVE-2016-6304,OpenSSL 1.0.2 before 1.0.2i,,
+CVE-2008-0891,OpenSSL 0.9.8f and 0.9.8g,,
+CVE-2014-3571,OpenSSL before 0.9.8zd,,
+CVE-2015-3197,OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f,,
+CVE-2015-0286,OpenSSL before 0.9.8zf and 1.0.2 before 1.0.2a,,
+CVE-2016-7052,OpenSSL 1.0.2i,,
+CVE-2015-1789,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b,,
+CVE-2015-1788,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b,,
+CVE-2015-1790,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b,,
+CVE-2015-1791,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b,,
+CVE-2015-1792,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b,,
+CVE-2016-2105,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h,,
+CVE-2008-0674,PCRE before 7.6,,
+CVE-2008-1026,Safari before 3.1.1,,
+CVE-2009-0544,PyCrypto ARC2 module 2.0.1,,
+CVE-2008-1316,QT-cute QuickTalk Forum 1.6,,
+CVE-2008-1585,Apple QuickTime before 7.5 ,,
+CVE-2008-0518,Mambo and Joomla,,
+CVE-2008-5808,Six Apart Movable Type Enterprise (MTE) 1.x before 1.56,,
+CVE-2008-5846,Six Apart Movable Type (MT) before 4.23,,
+CVE-2004-2759,Shared Sun StorEdge QFS and SAM-QFS file systems,,
+CVE-2009-0149,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7,,
+CVE-2009-0150,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7,,
+CVE-2008-5264,Tornado Knowledge Retrieval System 4.2,,
+CVE-2008-3700,Kayako SupportSuite 3.20.02,,
+CVE-2008-3292,EZWebAlbum 1.0,,
+CVE-2008-5002,ChilkatCrypt2.ChilkatCrypt2.1 ActiveX control,,
+CVE-2009-0280,Asp Project Management 1.0,,
+CVE-2007-6562,FD_SET in TCPreen before 1.4.4,,
+CVE-2008-3157,Nortel SIP Multimedia PC Client 4.x MCS5100,,
+CVE-2008-4342,NuMedia Soft NMS DVD Burning SDK Activex NMSDVDX.DVDEngineX.1 ActiveX control,,
+CVE-2008-5989,defs.php in PHPcounter 1.3.2,,
+CVE-2008-1734,PHP Toolkit before 1.0.1 on Gentoo Linux,,
+CVE-2008-1745,Cisco Unified Communications Manager (CUCM) 5.x before 5.1(2) and 6.x before 6.1(1),,
+CVE-2008-1156,Multicast Virtual Private Network,,
+CVE-2009-0037,curl and libcurl 5.11 through 7.19.3,,
+CVE-2008-3230,ffmpeg lavf demuxer,,
+CVE-2012-0472,Mozilla Firefox 4.x through 11.0,,
