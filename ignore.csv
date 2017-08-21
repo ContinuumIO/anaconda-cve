@@ -299,3 +299,74 @@ CVE-2004-2321,BEA WebLogic Server and Express 8.1 SP1
 CVE-2004-0471,BEA WebLogic Server and WebLogic Express 7.0
 CVE-2005-2681,Cisco Intrusion Prevention System 5.0(1)
 CVE-2003-1148,J-Pierre DEZELUS Les Visiteurs 2.0.1
+CVE-2017-9454,ReSIProcate before 1.12.0
+CVE-2016-7976,Ghostscript 9.18 and 9.20
+CVE-2017-8445,X-Pack Security TLS trust manager for versions 5.0.0 to 5.5.1
+CVE-2017-7210,GNU Binutils 2.28
+CVE-2017-5342,tcpdump before 4.9.0
+CVE-2008-4342,NuMedia Soft NMS DVD Burning SDK Activex
+CVE-2008-3834,D-bus library (libdbus) before 1.2.4Ê
+CVE-2009-0365,GNOME NetworkManager before 0.7.0.99
+CVE-2008-4311,D-Bus (aka DBus) before 1.2.6
+CVE-2008-3687,Xen 3.3
+CVE-2008-4316,GLib before 2.20
+CVE-2009-0397,GStreamer Good Plug-ins (aka gst-plugins-good) 0.10.9 through 0.10.11
+CVE-2008-2935,libxslt 1.1.8 through 1.1.24
+CVE-2008-5907,libpng before 1.0.42
+CVE-2008-3964,libpng before 1.2.32beta01
+CVE-2008-1382,libpng 1.0.6 through 1.0.32
+CVE-2009-0040,library (aka libpng) before 1.0.43
+CVE-2015-7894,Samsung LibQjpeg on a Samsung SM-G925V
+CVE-2008-3529,libxml2 before 2.7.0
+CVE-2008-3538,HP Enterprise Discovery 2.0 through 2.52
+CVE-2008-4409,libxml2 2.7.0 and 2.7.1
+CVE-2008-1767,libxslt before 1.1.24 
+CVE-2008-2137,linux kernel
+CVE-2008-3837,Mozilla Firefox before 2.0.0.17 and 3.x before 3.0.2
+CVE-2008-0477,QMPUpgrade.Upgrade.1 ActiveX control
+CVE-2008-4108,Python 2.4.5
+CVE-2008-0211,HP Compaq Business Notebook PC
+CVE-2009-0454,DMXReady Online Notebook Manager 1.1
+CVE-2008-0706,BIOS F.26 and earlier for the HP Compaq Notebook PC
+CVE-2008-5410,OpenSSL PKCS#11 engine in Sun Solaris 10
+CVE-2016-2178,OpenSSL through 1.0.2h
+CVE-2016-6306,OpenSSL before 1.0.1u and 1.0.2 before 1.0.2i
+CVE-2016-2177,OpenSSL through 1.0.2h
+CVE-2016-2180,OpenSSL through 1.0.2h
+CVE-2015-3195,OpenSSL 1.0.2 before 1.0.2e
+CVE-2016-2108,OpenSSL before 1.0.1o and 1.0.2 before 1.0.2c
+CVE-2016-2107,OpenSSLÊ1.0.2 before 1.0.2h
+CVE-2016-2106,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h
+CVE-2008-1678,OpenSSL 0.9.8f through 0.9.8h
+CVE-2008-1672,OpenSSL 0.9.8f and 0.9.8g
+CVE-2009-0051,ZXID 0.29 and earlier
+CVE-2009-0050,Lasso 2.2.1
+CVE-2014-0224,OpenSSL before 0.9.8za
+CVE-2016-6302,OpenSSL before 1.1.0
+CVE-2009-0161,OpenSSL::OCSP module for Ruby in Apple Mac OS X 10.5 before 10.5.7
+CVE-2008-0166,OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9
+CVE-2016-6304,OpenSSL 1.0.2 before 1.0.2i
+CVE-2008-0891,OpenSSL 0.9.8f and 0.9.8g
+CVE-2014-3571,OpenSSL before 0.9.8zd
+CVE-2015-3197,OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f
+CVE-2015-0286,OpenSSL before 0.9.8zf and 1.0.2 before 1.0.2a
+CVE-2016-7052,OpenSSL 1.0.2i
+CVE-2015-1789,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
+CVE-2015-1788,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
+CVE-2015-1790,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
+CVE-2015-1791,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
+CVE-2015-1792,OpenSSL before 0.9.8zg and 1.0.2 before 1.0.2b
+CVE-2016-2105,OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h
+CVE-2008-0674,PCRE before 7.6
+CVE-2008-1026,Safari before 3.1.1
+CVE-2009-0544,PyCrypto ARC2 module 2.0.1
+CVE-2008-1316,QT-cute QuickTalk Forum 1.6
+CVE-2008-1585,Apple QuickTime before 7.5 
+CVE-2008-0518,Mambo and Joomla
+CVE-2008-5808,Six Apart Movable Type Enterprise (MTE) 1.x before 1.56
+CVE-2008-5846,Six Apart Movable Type (MT) before 4.23
+CVE-2004-2759,Shared Sun StorEdge QFS and SAM-QFS file systems
+CVE-2009-0149,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7
+CVE-2009-0150,Apple Mac OS X 10.4.11 and 10.5 before 10.5.7
+CVE-2008-5264,Tornado Knowledge Retrieval System 4.2
+CVE-2008-3700,Kayako SupportSuite 3.20.02
