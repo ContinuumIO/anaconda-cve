@@ -222,3 +222,80 @@ CVE-2016-10068,MSL interpreter in ImageMagick
 CVE-2016-7916,fs/proc/base.c in the Linux kernel before 4.5.4
 CVE-2016-1702,Google Chrome before 51.0.2704.79
 CVE-2016-6595,SwarmKit toolkit 1.12.0 for Docker
+CVE-2004-1392,PHP 4.0 with cURL
+CVE-2005-0490,libcURL and cURL 7.12.1
+CVE-2016-5419,curl and libcurl before 7.50.1
+CVE-2005-3185,curl 7.13.2
+CVE-2004-0768,libpng 1.2.5
+CVE-2004-0421,(libpng) 1.0.15
+CVE-2004-0599,libpng 1.2.5
+CVE-2004-0598,libpng 1.2.5 
+CVE-2004-0597,libpng 1.2.5
+CVE-2004-0803,libtiff 3.6.1
+CVE-2005-1544,libTIFF before 3.7.2
+CVE-2004-1183,libtiff 3.7.1
+CVE-2004-1308,libtiff 3.5.7
+CVE-2004-0929,libtiff 3.6.1
+CVE-2004-0886,libtiff 3.6.1
+CVE-2004-0110,(Libxml2) 2.6.0 through 2.6.5
+CVE-2004-0989,libXML 2.6.12 and 2.6.13
+CVE-2004-0112,"OpenSSL 0.9.7a, 0.9.7b, and 0.9.7c"
+CVE-2003-0544,OpenSSL 0.9.6 and 0.9.7
+CVE-2004-0081,OpenSSL 0.9.6 before 0.9.6d
+CVE-2016-2109,1.0.2 before 1.0.2h
+CVE-2004-0975,Trustix Secure Linux 1.5 through 2.1
+CVE-2003-0131,OpenSSL 0.9.6i and earlier
+CVE-2016-2182,OpenSSL before 1.1.0 
+CVE-2004-0079,OpenSSL 0.9.6c to 0.9.6k
+CVE-2005-2969,OpenSSL 0.9.7 before 0.9.7h
+CVE-2005-0089,Python 2.2
+CVE-2004-0691,QT library (qt3) before 3.3.3
+CVE-2004-0692,QT library (qt3) before 3.3.4
+CVE-2004-0693,QT library (qt3) before 3.3.5
+CVE-2004-0608,The Unreal Engine
+CVE-2005-1849,zlib 1.2.2
+CVE-2004-2059,ASPRunner 2.4
+CVE-2002-1744,Microsoft IIS 5.0
+CVE-2017-1000381,NAPTR responses
+CVE-2005-2425,Ares FileShare 1.1
+CVE-2005-0001,Linux kernel
+CVE-2003-1116,Report Review Agent (RRA)
+CVE-2005-2423,Beehive Forum
+CVE-2004-2238,vpopmail 5.4.2
+CVE-2004-1894,TEXutil in ConTEXt
+CVE-2004-2337,inlook 0.7.3
+CVE-2004-0823,OpenLDAP 1.0 through 2.1.19
+CVE-2003-0189,Apache 2.0.40 through 2.0.45
+CVE-2003-1067,Solaris 2.6
+CVE-2004-0572,Windows Program Group Converter
+CVE-2004-0594,PHP 4.x up to 4.3.7
+CVE-2004-1442,CGI interpreter in IBM Net.Data 7
+CVE-2004-0138,ELF loader in Linux kernel 2.4 before 2.4.25
+CVE-2004-1073,Linux kernel 2.4.x up to 2.4.27
+CVE-2004-1072,Linux kernel 2.4.x up to 2.4.28
+CVE-2005-1159,Firefox before 1.0.3
+CVE-2003-0824,SmartHTML interpreter
+CVE-2017-11146,PHP through 5.6.31
+CVE-2002-0385,Vignette Story Server 4.1 and 6.0
+CVE-2004-1234,Linux before 2.4.26
+CVE-2004-1208,Orbz 2.10
+CVE-2004-1207,Alpha Black Zero Intrepid Protocol 1.04
+CVE-2004-1195,Star Wars Battlefront 1.11
+CVE-2002-1668,HP-UX 11.11 and earlier
+CVE-2004-1983,Address Space Layout Randomization (ASLR)
+CVE-2005-1283,Argosoft Mail Server Pro 1.8.7.6
+CVE-2005-2396,MediaWiki 1.4.6
+CVE-2005-1491,Merak Mail Server 8.0.3 with Icewarp Web Mail 5.4.2
+CVE-2004-1674,Merak Mail Server 7.4.5 with Icewarp Web Mail 5.2.7
+CVE-2002-1777,Symantec Norton AntiVirus
+CVE-2002-1775,Symantec Norton AntiVirus
+CVE-2005-0487,Kayako ESupport 2.3.1
+CVE-2004-1942,Solaris 9
+CVE-2005-0083,MySQL MaxDB 7.5.00 for Windows
+CVE-2003-0150,MySQL 3.23.55
+CVE-2004-2553,The Ignition Project ignitionServer 0.1.2
+CVE-2004-2286,ActivePerl
+CVE-2004-2321,BEA WebLogic Server and Express 8.1 SP1
+CVE-2004-0471,BEA WebLogic Server and WebLogic Express 7.0
+CVE-2005-2681,Cisco Intrusion Prevention System 5.0(1)
+CVE-2003-1148,J-Pierre DEZELUS Les Visiteurs 2.0.1
