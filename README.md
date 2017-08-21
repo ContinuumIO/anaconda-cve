@@ -9,6 +9,12 @@ For example:
 
 `./vulnfinder.sh /Applications/anaconda/anaconda/envs/py27 ./vuln.json`
 
+Or for Windows: 
+
+`./vulnfinder.sh C:/Users/johnsmith/Anaconda2/py27 ./vuln.json`
+
+Note in this case the hybrid path -- drive name plus Unix-y path separators. 
+
  The CSV file ignore.csv contains CVE codes which have been previously determined to be false positives
  and should not be investigated again.
  
