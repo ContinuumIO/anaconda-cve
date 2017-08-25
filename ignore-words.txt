@@ -36,4 +36,8 @@ actions
 select
 macos
 macOS
-window 
+window
+syslog
+testing
+streams
+operator 
